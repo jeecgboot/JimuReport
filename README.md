@@ -11,5 +11,6 @@ v1.0
 
 
 - 官网： www.jimureport.com
-- 视频:  https://www.bilibili.com/video/BV1iT4y1w78o
+- 视频： https://www.bilibili.com/video/BV1iT4y1w78o
+- 立刻使用： http://jimureport.com/login
 
