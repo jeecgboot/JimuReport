@@ -22,7 +22,7 @@ v1.0-beta
 
 - 第二步： 执行升级 sql
 
-[jimureport_init20201029.sql](https://github.com/zhangdaiscott/JimuReport/blob/master/db/jimureport_init20201029.sql "jimureport_init20201029.sql")
+   [jimureport_init20201029.sql](https://github.com/zhangdaiscott/JimuReport/blob/master/db/jimureport_init20201029.sql "jimureport_init20201029.sql")
 
 - 第三步： 角色授权菜单，就可以看到报表设计菜单
 
