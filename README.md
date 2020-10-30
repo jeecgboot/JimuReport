@@ -22,10 +22,11 @@ v1.0-beta
 
 - 第二步： 执行升级 sql
 
-    [jimureport_init20201029.sql](https://github.com/zhangdaiscott/JimuReport/blob/master/db/jimureport_init20201029.sql "jimureport_init20201029.sql")
+    [jimureport_init20201029.sql](https://github.com/zhangdaiscott/JimuReport/blob/master/db/jimureport_init20201029.sql "jimureport_init20201029.sql") 
 
 - 第三步：修改配置文件
-   修改 application-dev.yml增加配置
+
+   修改 application-dev.yml增加配置属性
 
 ```
 #jeecg专用配置
@@ -52,8 +53,6 @@ jeecg :
 **=>开放的功能清单**
 
 ![](https://oscimg.oschina.net/oscnet/up-d10e6c78dd5fb37923d3123be8c1ca23cd0.png)
-
-
 
 
 
