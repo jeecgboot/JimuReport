@@ -1,18 +1,22 @@
 # JimuReport
 
-积木报表，像搭建积木一样在线设计报表
+积木报表，一个开源免费的报表工具，像搭建积木一样在线设计报表！功能涵盖大屏设计器、打印设计器、图形设计器、在线报表设计等！     
+领先的企业级Web报表平台软件，采用纯Web在线技术，专注于解决企业报表快速制作难题。
 v1.0-beta
+快速体验： [www.jimureport.com](http://www.jimureport.com "www.jimureport.com")
 
 ```
 永久免费使用
 专注于设计“专业 易用 优质”的大屏设计器和报表设计器
 ```
 
-离线版与JeecgBoot集成
+集成文档
 -----------------------------------
 
+###  #与JeecgBoot集成步骤
+
 - 第一步： 集成依赖 jar
-```
+``` 
 <dependency>
   <groupId>org.jeecgframework.boot</groupId>
   <artifactId>jimureport</artifactId>
@@ -50,9 +54,12 @@ jeecg :
 
 ![](https://oscimg.oschina.net/oscnet/up-03d6c0a82f8e2fb96783eb5d9ce9a6a7bc0.png)
 
-**=>开放的功能清单**
+备注： 如果你用的是微服务模式，需要自行配置gateway新路由。
+
+###  #已开放功能清单
 
 ![](https://oscimg.oschina.net/oscnet/up-d10e6c78dd5fb37923d3123be8c1ca23cd0.png)
+
 
 
 
