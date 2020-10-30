@@ -1,13 +1,16 @@
 # JimuReport
 
 积木报表，一个开源免费的报表工具，像搭建积木一样在线设计报表！功能涵盖大屏设计器、打印设计器、图形设计器、在线报表设计等！     
-领先的企业级Web报表平台软件，采用纯Web在线技术，专注于解决企业报表快速制作难题。
+
+
 v1.0-beta
+
 快速体验： [www.jimureport.com](http://www.jimureport.com "www.jimureport.com")
 
 ```
 永久免费使用
 专注于设计“专业 易用 优质”的大屏设计器和报表设计器
+领先的企业级Web报表平台软件，采用纯Web在线技术，专注于解决企业报表快速制作难题。
 ```
 
 集成文档
@@ -68,5 +71,3 @@ jeecg :
 
 - 官网： www.jimureport.com
 - 视频： https://www.bilibili.com/video/BV1iT4y1w78o
-- 免费使用： http://jimureport.com/login
-
