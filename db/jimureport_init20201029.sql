@@ -589,6 +589,78 @@ INSERT INTO `jimu_report_db_param` VALUES ('b7c34e8a3c2804715825af4bdbcf857a', '
 INSERT INTO `jimu_report_db_param` VALUES ('d8010a4ffbe567e6117e7f59641aeb7c', '1289140698221678593', 'pageNo', 'pageNo', '1', 1, NULL, '2020-08-03 15:19:54', NULL, NULL);
 INSERT INTO `jimu_report_db_param` VALUES ('d9d94d6b09dd074f39af96d7a4696f9a', '1291217511962902530', 'pageNo', 'pageNo', '1', 1, NULL, '2020-08-03 15:19:54', NULL, NULL);
 
+
+
+-- ----------------------------
+-- Table structure for rep_demo_employee
+-- ----------------------------
+DROP TABLE IF EXISTS `rep_demo_employee`;
+CREATE TABLE `rep_demo_employee`  (
+  `id` varchar(10) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '主键',
+  `num` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '编号',
+  `name` varchar(100) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '姓名',
+  `sex` varchar(10) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '性别',
+  `birthday` datetime(0) NULL DEFAULT NULL COMMENT '出生日期',
+  `nation` varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '民族',
+  `political` varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '政治面貌',
+  `native_place` varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '籍贯',
+  `height` varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '身高',
+  `weight` varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '体重',
+  `health` varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '健康状况',
+  `id_card` varchar(80) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '身份证号',
+  `education` varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '学历',
+  `school` varchar(80) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '毕业学校',
+  `major` varchar(80) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '专业',
+  `address` varchar(100) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '联系地址',
+  `zip_code` varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '邮编',
+  `email` varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT 'Email',
+  `phone` varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '手机号',
+  `foreign_language` varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '外语语种',
+  `foreign_language_level` varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '外语水平',
+  `computer_level` varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '计算机水平',
+  `graduation_time` datetime(0) NULL DEFAULT NULL COMMENT '毕业时间',
+  `arrival_time` datetime(0) NULL DEFAULT NULL COMMENT '到职时间',
+  `positional_titles` varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '职称',
+  `education_experience` text CHARACTER SET utf8 COLLATE utf8_general_ci NULL COMMENT '教育经历',
+  `work_experience` text CHARACTER SET utf8 COLLATE utf8_general_ci NULL COMMENT '工作经历',
+  `create_by` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '创建人',
+  `create_time` datetime(0) NULL DEFAULT NULL COMMENT '创建时间',
+  `update_by` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '修改人',
+  `update_time` datetime(0) NULL DEFAULT NULL COMMENT '修改时间',
+  `del_flag` tinyint(1) NULL DEFAULT NULL COMMENT '删除标识0-正常,1-已删除',
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Records of rep_demo_employee
+-- ----------------------------
+INSERT INTO `rep_demo_employee` VALUES ('111', '001', '张三', '男', '2000-02-04 13:36:19', '汉族', '团员', '北京', '170', '65', '良好', '110101200002044853', '大专', '北京科技', '计算机', '北京朝阳区', '1001', 'zhang@163.com', '18011111111', '英语', '三级', '三级', '2019-02-04 13:41:17', '2020-02-04 13:41:31', '项目经理', '2018年9月—2019年7月：北京语言文化大学比较文学研究所攻读博士学位，获得比较文学博士学位', '2019年5月---至今 XX公司     网络系统工程师  \n2019年5月---至今 XX公司     网络系统工程师', NULL, '2020-02-04 15:18:03', NULL, NULL, NULL);
+INSERT INTO `rep_demo_employee` VALUES ('112', '002', '张三111', '女', '2000-02-04 13:36:19', '汉族', '团员', '北京', '170', '65', '良好', '110101200002044853', '大专', '北京科技', '计算机', '北京朝阳区', '1001', 'zhang@163.com', '18011111111', '英语', '三级', '三级', '2019-02-04 13:41:17', '2020-02-04 13:41:31', '项目经理', '2018年9月—2019年7月：北京语言文化大学比较文学研究所攻读博士学位，获得比较文学博士学位', '2019年5月---至今 XX公司     网络系统工程师  \n2019年5月---至今 XX公司     网络系统工程师', NULL, '2020-02-04 18:39:27', NULL, NULL, NULL);
+
+-- ----------------------------
+-- Table structure for rep_demo_income
+-- ----------------------------
+DROP TABLE IF EXISTS `rep_demo_income`;
+CREATE TABLE `rep_demo_income`  (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `month` varchar(10) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '月份',
+  `main_operating_income` decimal(10, 2) NULL DEFAULT NULL COMMENT '佣金/主营业收入',
+  `cumulative` decimal(10, 2) NULL DEFAULT NULL COMMENT '累计',
+  `lowest_level_in_history` decimal(10, 2) NULL DEFAULT NULL COMMENT '历史最低水平',
+  `historical_average` decimal(10, 2) NULL DEFAULT NULL COMMENT '历史平均水平',
+  `record_high` decimal(10, 2) NULL DEFAULT NULL COMMENT '历史最高水平',
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 5 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Records of rep_demo_income
+-- ----------------------------
+INSERT INTO `rep_demo_income` VALUES (1, '1', 483835.11, 483835.00, 57570.00, 216798.00, 483835.00);
+INSERT INTO `rep_demo_income` VALUES (2, '2', 11666579.00, 12150413.00, 22140.00, 4985362.00, 11666579.00);
+INSERT INTO `rep_demo_income` VALUES (3, '3', 27080982.00, 17428381.00, 73106.00, 16192642.00, 27080982.00);
+INSERT INTO `rep_demo_income` VALUES (4, '4', 0.11, 39231395.00, 73106.00, 8513415.00, 17428381.00);
+
+
 SET FOREIGN_KEY_CHECKS = 1;
 
 
