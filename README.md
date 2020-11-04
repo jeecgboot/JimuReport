@@ -29,6 +29,8 @@ v1.0-beta
 
 快速体验： [www.jimureport.com](http://www.jimureport.com "www.jimureport.com")
 
+快速体验： [www.jimureport.com](http://www.jimureport.com "www.jimureport.com")
+
 ###  #与JeecgBoot集成步骤
 
 - 第一步： 集成依赖 jar
@@ -80,8 +82,15 @@ jeecg :
 
 ![](https://oscimg.oschina.net/oscnet/up-03d6c0a82f8e2fb96783eb5d9ce9a6a7bc0.png)
 
-备注： 如果你用的是微服务模式，需要自行配置gateway新路由：`,/design/report/**`
+- 备注：其他特殊配置
+
+ #a. 如果你用的是微服务模式，需要自行配置gateway新路由：`,/design/report/**`
 ![](https://oscimg.oschina.net/oscnet/up-90f845373770b607ef177deec0e4a78102a.png)
+
+ #b. 如果你的jeecgboot非2.3版本，需要手工升级mybatis-plus版本为 3.3.2
+```
+   如果遇到文件报错，错误文件参考: https://github.com/zhangdaiscott/jeecg-boot
+```
 
 ###  #已开放功能清单
 ![](https://oscimg.oschina.net/oscnet/up-d65240de562820d4f26c001104d84db51a3.png)
