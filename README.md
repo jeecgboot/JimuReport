@@ -29,8 +29,6 @@ v1.0-beta
 
 快速体验： [www.jimureport.com](http://www.jimureport.com "www.jimureport.com")
 
-快速体验： [www.jimureport.com](http://www.jimureport.com "www.jimureport.com")
-
 ###  #与JeecgBoot集成步骤
 
 - 第一步： 集成依赖 jar
