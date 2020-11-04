@@ -89,9 +89,12 @@ jeecg :
 ```
    如果遇到文件报错，错误文件参考: https://github.com/zhangdaiscott/jeecg-boot
 ```
+#c. 如果访问404 说明JAR没引入成功，刷新Maven依赖
+![](https://oscimg.oschina.net/oscnet/up-37c3e33f9193336e6d27ecdee6d2e20abba.png)
 
 ###  #已开放功能清单
 ![](https://oscimg.oschina.net/oscnet/up-d65240de562820d4f26c001104d84db51a3.png)
+
 
 
 
