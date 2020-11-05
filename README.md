@@ -26,6 +26,8 @@ v1.0-beta
 
  JimuReport报表工具，提供离线版本可以快速与JeecgBoot项目集成，具体参考下面的文档。
 
+快速体验： [www.jimureport.com](http://www.jimureport.com "www.jimureport.com")
+
 ###  #与JeecgBoot集成步骤
 
 - 第一步： 集成依赖 jar
@@ -81,7 +83,7 @@ jeecg :
 
 - 备注：其他特殊配置
 
- #a. 如果你用的是微服务模式，需要自行配置gateway新路由：`,/design/report/**`
+ #a. 如果你用的是微服务模式，需要自行配置gateway新路由：`,/design/report/**,/jmreport/desreport_/**`
 ![](https://oscimg.oschina.net/oscnet/up-90f845373770b607ef177deec0e4a78102a.png)
 
  #b. 如果你的jeecgboot非2.3版本，需要手工升级mybatis-plus版本为 3.3.2
@@ -93,8 +95,6 @@ jeecg :
 
 ###  #已开放功能清单
 ![](https://oscimg.oschina.net/oscnet/up-d65240de562820d4f26c001104d84db51a3.png)
-
-
 
 
 项目介绍
