@@ -43,7 +43,7 @@ v1.0.2-beta | 20201105
 
 - 第二步： 执行升级 sql
 
-    [jimureport_init20201029.sql](https://github.com/zhangdaiscott/JimuReport/blob/master/db/jimureport_init20201029.sql "jimureport_init20201029.sql") 
+    [jimu_report.sql](https://github.com/zhangdaiscott/JimuReport/blob/master/db/jimu_report.sql "jimu_report.sql")
 
 - 第三步：修改配置文件
 
@@ -93,8 +93,13 @@ jeecg :
 #c. 如果访问404 说明JAR没引入成功，刷新Maven依赖
 ![](https://oscimg.oschina.net/oscnet/up-37c3e33f9193336e6d27ecdee6d2e20abba.png)
 
+#d. CommonAPI 错误参考下面链接
+
+  [jeecgboot2.3之前的版本集成会出现此问题]( https://github.com/zhangdaiscott/JimuReport/issues/10 "点击查看或者反馈常见问题")
+
 ###  #已开放功能清单
 ![](https://oscimg.oschina.net/oscnet/up-d65240de562820d4f26c001104d84db51a3.png)
+
 
 
 项目介绍
