@@ -24,14 +24,13 @@ v1.0-beta
 集成文档
 -----------------------------------
 
-积木报表 ，一个开源免费的报表工具，像搭建积木一样在线设计报表！功能涵盖数据报表设计、打印设计、图表设计、大屏设计等！     
-领先的企业级Web报表平台软件，采用纯Web在线技术，专注于解决企业报表快速制作难题。
-
-快速体验： [www.jimureport.com](http://www.jimureport.com "www.jimureport.com")
+ JimuReport报表工具，提供离线版本可以快速与JeecgBoot项目集成，具体参考下面的文档。
 
 ###  #与JeecgBoot集成步骤
 
 - 第一步： 集成依赖 jar
+
+修改 jeecg-boot-module-system/pom.xml 加入下面的依赖
 ``` 
 <dependency>
   <groupId>org.jeecgframework.boot</groupId>
@@ -94,7 +93,6 @@ jeecg :
 
 ###  #已开放功能清单
 ![](https://oscimg.oschina.net/oscnet/up-d65240de562820d4f26c001104d84db51a3.png)
-
 
 
 
