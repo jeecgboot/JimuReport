@@ -3,7 +3,7 @@
 积木报表，免费的企业级WEB报表工具，像搭建积木一样在线设计报表！功能涵盖数据报表设计、打印设计、图表设计、大屏设计(暂不开源)等！
 
 
-v1.0-beta
+v1.0.2-beta | 20201105
 
 快速体验： [www.jimureport.com](http://www.jimureport.com "www.jimureport.com")
 
@@ -37,7 +37,7 @@ v1.0-beta
 <dependency>
   <groupId>org.jeecgframework.boot</groupId>
   <artifactId>jimureport</artifactId>
-  <version>1.0-beta</version>
+  <version>1.0.2-beta</version>
 </dependency>
 ``` 
 
