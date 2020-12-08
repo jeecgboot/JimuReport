@@ -25,7 +25,7 @@ v1.1-beta | 20201208
 -----------------------------------
 
 
-[spring-boot-starter-jimureport快速集成](https://my.oschina.net/jeecg/blog/4779874)
+[Spring-boot-starter-jimureport 快速集成](https://my.oschina.net/jeecg/blog/4779874)
 
 
 
