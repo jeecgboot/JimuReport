@@ -12,20 +12,17 @@ v1.1-beta | 20201208
 永久免费使用
 专注于开源，打造“专业 易用 优质”的报表设计工具
 领先的企业级Web报表平台软件，采用纯Web在线技术，专注于解决企业报表快速制作难题。
+开源宗旨：`功能永久免费、可以商用、代码不开放`
 ```
 
-
-  QQ交流群：212391162
-
-![输入图片说明](https://oscimg.oschina.net/oscnet/up-093c83cd5f01bbbd6021c97c74af3df07f8.png "在这里输入图片标题")
 
 
 
 集成文档
 -----------------------------------
 
-
-[Spring-boot-starter-jimureport 快速集成](https://my.oschina.net/jeecg/blog/4779874)
+-  [http://report.jeecg.com](http://report.jeecg.com)
+- [快速集成文档](http://report.jeecg.com/2078875)
 
 
 
@@ -34,5 +31,11 @@ v1.1-beta | 20201208
 项目介绍
 -----------------------------------
 
-- 在线使用： http://www.jimureport.com
+- 官方网站： http://www.jimureport.com
 - 视频教程： https://www.bilibili.com/video/BV1iT4y1w78o
+
+
+
+  QQ交流群：212391162
+
+![输入图片说明](https://oscimg.oschina.net/oscnet/up-093c83cd5f01bbbd6021c97c74af3df07f8.png "在这里输入图片标题")
