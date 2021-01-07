@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletRequest;
  * 2.自定义获取登录用户
 */
 @Component
-class JimureportServiceImpl implements JmReportTokenServiceI {
+class JimuReportTokenService implements JmReportTokenServiceI {
     @Autowired
     private ISysBaseAPI sysBaseAPI;
     @Autowired
