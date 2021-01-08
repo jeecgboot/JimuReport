@@ -6,48 +6,42 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.3.5.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
-    <groupId>com.example</groupId>
-    <artifactId>jmrpt</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <groupId>org.jeecg</groupId>
+    <artifactId>jimureport-demo</artifactId>
+    <version>1.0.1</version>
     <name>jimureport-demo</name>
-    <description>jimureport-demo</description>
+
+    <url>http://www.jimureport.com</url>
+    <description>积木报表集成示例</description>
 
     <properties>
         <java.version>1.8</java.version>
     </properties>
 
     <dependencies>
+        <!-- jimureport -->
+        <dependency>
+            <groupId>com.jimureport</groupId>
+            <artifactId>spring-boot-starter-jimureport</artifactId>
+            <version>1.1.02-beta</version>
+        </dependency>
+
+        <!-- jimureport dependency -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <scope>runtime</scope>
         </dependency>
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
             <version>3.4.1</version>
         </dependency>
+        <!-- freemarker -->
         <dependency>
-            <groupId>com.jimureport</groupId>
-            <artifactId>spring-boot-starter-jimureport</artifactId>
-            <version>1.1.01</version>
-        </dependency>
-        <!-- 动态数据源 -->
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>druid</artifactId>
-            <version>1.1.17</version>
-        </dependency>
-        <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>dynamic-datasource-spring-boot-starter</artifactId>
-            <version>3.2.0</version>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-freemarker</artifactId>
         </dependency>
         <!-- AutoPoi Excel-->
         <dependency>
@@ -86,11 +80,26 @@
             <artifactId>fastjson</artifactId>
             <version>1.2.72</version>
         </dependency>
-        <!-- freemarker -->
+
+        <!-- 动态数据源 -->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-freemarker</artifactId>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.1.17</version>
         </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>dynamic-datasource-spring-boot-starter</artifactId>
+            <version>3.2.0</version>
+        </dependency>
+
+        <!-- DB 驱动包 -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        <!-- jimureport dependency -->
     </dependencies>
 
     <build>
