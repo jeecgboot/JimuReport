@@ -19,7 +19,7 @@
            https://github.com/zhangdaiscott/JimuReport/blob/master/db/jimureport.mysql5_7.create.sql
 -  第三步： 启动项目
 
-           右键执行com.example.jmrpt.JimuReportApplication
+           右键执行com.example.jmreport.JimuReportDemoApplication
 -  第四步： 访问项目
 
            http://localhost:8085/jeecg-boot/jmreport/list
