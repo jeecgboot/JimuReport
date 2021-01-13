@@ -25,48 +25,42 @@
         <dependency>
             <groupId>com.jimureport</groupId>
             <artifactId>spring-boot-starter-jimureport</artifactId>
-            <version>1.1.02-beta</version>
+            <version>1.1.04-beta</version>
         </dependency>
 
         <!-- jimureport dependency -->
+        <!-- SpringBoot-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-freemarker</artifactId>
         </dependency>
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
             <version>3.4.1</version>
         </dependency>
-        <!-- freemarker -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-freemarker</artifactId>
-        </dependency>
+
         <!-- AutoPoi Excel-->
         <dependency>
             <groupId>org.jeecgframework</groupId>
             <artifactId>autopoi-web</artifactId>
             <version>1.2.2</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>commons-codec</groupId>
-                    <artifactId>commons-codec</artifactId>
-                </exclusion>
-            </exclusions>
-            <optional>true</optional>
         </dependency>
         <!-- aliyun oss -->
         <dependency>
             <groupId>com.aliyun.oss</groupId>
             <artifactId>aliyun-sdk-oss</artifactId>
-            <version>3.6.0</version>
+            <version>3.11.2</version>
         </dependency>
         <!-- minio oss -->
         <dependency>
             <groupId>io.minio</groupId>
             <artifactId>minio</artifactId>
-            <version>4.0.0</version>
+            <version>6.0.13</version>
         </dependency>
         <!-- hutool工具类-->
         <dependency>
@@ -78,14 +72,14 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.72</version>
+            <version>1.2.75</version>
         </dependency>
 
         <!-- 动态数据源 -->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
-            <version>1.1.17</version>
+            <version>1.1.22</version>
         </dependency>
         <dependency>
             <groupId>com.baomidou</groupId>
