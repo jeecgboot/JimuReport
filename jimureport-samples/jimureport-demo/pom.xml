@@ -21,14 +21,13 @@
     </properties>
 
     <dependencies>
-        <!-- jimureport -->
+        <!-- JimuReport -->
         <dependency>
             <groupId>com.jimureport</groupId>
             <artifactId>spring-boot-starter-jimureport</artifactId>
-            <version>1.1.04-beta</version>
+            <version>1.1.05</version>
         </dependency>
 
-        <!-- jimureport dependency -->
         <!-- SpringBoot-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -43,57 +42,18 @@
             <artifactId>mybatis-plus-boot-starter</artifactId>
             <version>3.4.1</version>
         </dependency>
-
-        <!-- AutoPoi Excel-->
-        <dependency>
-            <groupId>org.jeecgframework</groupId>
-            <artifactId>autopoi-web</artifactId>
-            <version>1.2.2</version>
-        </dependency>
-        <!-- aliyun oss -->
-        <dependency>
-            <groupId>com.aliyun.oss</groupId>
-            <artifactId>aliyun-sdk-oss</artifactId>
-            <version>3.11.2</version>
-        </dependency>
-        <!-- minio oss -->
-        <dependency>
-            <groupId>io.minio</groupId>
-            <artifactId>minio</artifactId>
-            <version>6.0.13</version>
-        </dependency>
-        <!-- hutool工具类-->
-        <dependency>
-            <groupId>cn.hutool</groupId>
-            <artifactId>hutool-all</artifactId>
-            <version>5.3.8</version>
-        </dependency>
-        <!-- json -->
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>1.2.75</version>
-        </dependency>
-
-        <!-- 动态数据源 -->
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>druid</artifactId>
-            <version>1.1.22</version>
-        </dependency>
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>dynamic-datasource-spring-boot-starter</artifactId>
             <version>3.2.0</version>
         </dependency>
 
-        <!-- DB 驱动包 -->
+        <!-- DB驱动 -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <scope>runtime</scope>
         </dependency>
-        <!-- jimureport dependency -->
     </dependencies>
 
     <build>
