@@ -3,7 +3,7 @@
 积木报表，免费的企业级WEB报表工具，像搭建积木一样在线设计报表！功能涵盖：数据报表、图表报表、打印设计、大屏设计等！
 
 
-v1.1.04-beta | 20210113
+v1.1.05 | 20210118
 
 快速体验： [www.jimureport.com](http://www.jimureport.com "www.jimureport.com")
 
