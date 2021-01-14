@@ -24,7 +24,7 @@ v1.1.05 | 20210118
 -----------------------------------
 
 - [快速集成](http://report.jeecg.com/2078875)
-- [操作手册](http://report.jeecg.com)
+- [操作手册](http://report.jeecg.com/1423422)
 
 
 
