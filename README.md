@@ -1,6 +1,6 @@
 # JimuReport
 
-v1.1.09-beta | 2021-01-25
+v1.1.09-beta | 20210125
 
 [![](https://img.shields.io/badge/Author-北京国炬软件-orange.svg)](http://jimureport.com)
 [![](https://img.shields.io/badge/version-1.1.09-brightgreen.svg)](https://github.com/zhangdaiscott/JimuReport)
@@ -53,7 +53,7 @@ v1.1.09-beta | 2021-01-25
 
 - 官方网站： http://www.jimureport.com
 - 视频教程： http://jimureport.com/doc/video
-- QQ交流群：212391162
+- QQ交流群： 212391162
 
 ![输入图片说明](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/jimureport_qq_qun1.png "在这里输入图片标题")
 
