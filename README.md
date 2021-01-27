@@ -46,7 +46,7 @@ v1.1.09-beta | 20210125
 - 视频教程： http://jimureport.com/doc/video
 - QQ交流群：212391162
 
-![输入图片说明](https://oscimg.oschina.net/oscnet/up-093c83cd5f01bbbd6021c97c74af3df07f8.png "在这里输入图片标题")
+![输入图片说明](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/jimureport_qq_qun1.png "在这里输入图片标题")
 
 
 
