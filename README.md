@@ -12,7 +12,7 @@
 开源宗旨：`功能永久免费、可以商用、代码不开放（大屏设计暂时不提供离线版本）`
 ```
 
-当前最新版本： 1.1.09-beta（发布日期：2021-01-25）
+v1.1.09-beta | 2021-01-25
 
 [![](https://img.shields.io/badge/Author-北京国炬软件-orange.svg)](http://jimureport.com)
 [![](https://img.shields.io/badge/version-1.1.09-brightgreen.svg)](https://github.com/zhangdaiscott/JimuReport)
