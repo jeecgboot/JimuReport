@@ -6,11 +6,6 @@
 - 秉承“简单、易用、专业”的产品理念，极大的降低报表开发难度、缩短开发周期、节省成本、解决各类报表难题。
 
 
-v1.1.09-beta | 20210125
-
-快速体验： [www.jimureport.com](http://www.jimureport.com "www.jimureport.com")
-
-
 ```
 永久免费使用
 专注于开源，打造“专业 易用 智能”的报表工具
@@ -19,6 +14,11 @@ v1.1.09-beta | 20210125
 领先的企业级Web报表软件，采用纯Web在线技术，专注于解决企业报表快速制作难题。
 
 ```
+
+v1.1.09-beta | 20210125
+
+快速体验： [www.jimureport.com](http://www.jimureport.com "www.jimureport.com")
+
 
 
 产生背景
