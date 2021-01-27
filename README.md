@@ -26,7 +26,7 @@ v1.1.09-beta | 20210125
 做一个什么样的报表呢？随着低代码概念的兴起，原先通过报表工具设计模板，再与系统集成的模式已经落伍，现在追求的是完全在线设计，傻瓜式的操作，实现简单易用又智能的报表！
 
 - 目前积木报表已经实现了完全在线设计，轻量级集成、类似excel的风格，像搭建积木一样在线拖拽设计报表！功能涵盖数据报表设计、打印设计、图表设计、大屏设计等！
-- 2019年底启动积木报表研发工作，历经一年多的时间，2020-11-03发布第一版出炉 [v1.0-beta](https://www.oschina.net/news/119666/jimureport-1-0-beta-released)
+- 2019年底启动积木报表研发工作，历经一年多的时间，2020-11-03第一版出炉 [v1.0-beta](https://www.oschina.net/news/119666/jimureport-1-0-beta-released)
 - 2020年的持续打磨和研发，终于在2021-1-18发布了第一个正式版本 [v1.1.05](https://www.oschina.net/news/126916/jimureport-1-1-05-released)
 
 
@@ -49,6 +49,48 @@ v1.1.09-beta | 20210125
 - QQ交流群：212391162
 
 ![输入图片说明](https://oscimg.oschina.net/oscnet/up-093c83cd5f01bbbd6021c97c74af3df07f8.png "在这里输入图片标题")
+
+
+
+
+
+为什么选择 JimuReport?
+-----------------------------------
+>    永久免费，支持各种复杂报表，并且傻瓜式在线设计，非常的智能，低代码时代，这个是你的首选！
+
+- 采用SpringBoot+Mybatis-Plus的脚手架项目，都可以快速集成
+- Web 版设计器，类似于excel操作风格，通过拖拽完成报表设计
+- 通过SQL、API等方式，将数据源与模板绑定。同时支持表达式，自动计算合计等功能，使计算工作量大大降低
+- 开发效率很高，傻瓜式在线报表设计，一分钟设计一个报表，又简单又强大
+- 支持 ECharts，目前支持28种图表，在线拖拽设计，支持SQL和API两种数据源
+- 支持分组、交叉，合计、表达式等复杂报表
+- 支持打印设计（支持套打、背景打印等）可设置打印边距、方向、页眉页脚等参数 一键快速打印 同时可实现发票套打，不动产证等精准、无缝打印
+- 大屏设计器支持几十种图表样式，可自由拼接、组合，设计炫酷大屏
+- 可设计各种类型的单据、大屏，如出入库单、销售单、财务报表、合同、监控大屏、旅游数据大屏等
+
+
+报表截图
+-----------------------------------
+
+- 报表设计器（完全在线设计，简单易用）
+
+![](https://oscimg.oschina.net/oscnet/up-752b454f64ed87c798b3e8a083fbd6622d4.gif)
+
+- 打印设计（支持套打、背景打印）
+
+![](https://oscimg.oschina.net/oscnet/up-9b6cd73719de68e0e45e1cf95cd6104a103.png)
+![](https://oscimg.oschina.net/oscnet/up-8863ea4e67c02dbd844bb8022652f1be651.png)
+
+- 数据报表（支持分组、交叉，合计等复杂报表）
+
+![](https://oscimg.oschina.net/oscnet/up-fe2ac0dfc3933734961924de0538b3049d2.png)
+![](https://oscimg.oschina.net/oscnet/up-be956cbc19287e4df9cc46c9d15e96da99d.png)
+
+- 图形报表（目前支持28种图表）
+![](https://oscimg.oschina.net/oscnet/up-3eda428ef182cb64a1a8e132e4bfeb87718.png)
+![](https://oscimg.oschina.net/oscnet/up-22096123c5b6a10a801967c33cc33a7af11.png)
+
+
 
 
 功能清单
