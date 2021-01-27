@@ -1,5 +1,13 @@
 # JimuReport
 
+v1.1.09-beta | 2021-01-25
+
+[![](https://img.shields.io/badge/Author-北京国炬软件-orange.svg)](http://jimureport.com)
+[![](https://img.shields.io/badge/version-1.1.09-brightgreen.svg)](https://github.com/zhangdaiscott/JimuReport)
+[![GitHub stars](https://img.shields.io/github/stars/zhangdaiscott/JimuReport.svg?style=social&label=Stars)](https://github.com/zhangdaiscott/JimuReport)
+[![GitHub forks](https://img.shields.io/github/forks/zhangdaiscott/JimuReport.svg?style=social&label=Fork)](https://github.com/zhangdaiscott/JimuReport)
+
+
 积木报表，是一款免费的企业级Web报表工具，像搭建积木一样在线设计报表！功能涵盖，数据报表、打印设计、图表报表、大屏设计等！
 
 - Web 版报表设计器，类似于excel操作风格，通过拖拽完成报表设计。
@@ -12,12 +20,6 @@
 开源宗旨：`功能永久免费、可以商用、代码不开放（大屏设计暂时不提供离线版本）`
 ```
 
-v1.1.09-beta | 2021-01-25
-
-[![](https://img.shields.io/badge/Author-北京国炬软件-orange.svg)](http://jimureport.com)
-[![](https://img.shields.io/badge/version-1.1.09-brightgreen.svg)](https://github.com/zhangdaiscott/JimuReport)
-[![GitHub stars](https://img.shields.io/github/stars/zhangdaiscott/JimuReport.svg?style=social&label=Stars)](https://github.com/zhangdaiscott/JimuReport)
-[![GitHub forks](https://img.shields.io/github/forks/zhangdaiscott/JimuReport.svg?style=social&label=Fork)](https://github.com/zhangdaiscott/JimuReport)
 
 
 
