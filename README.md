@@ -1,6 +1,6 @@
 # JimuReport
 
-v1.1.09-beta | 20210125
+v1.1.09 | 20210205
 
 [![](https://img.shields.io/badge/Author-北京国炬软件-orange.svg)](http://jimureport.com)
 [![](https://img.shields.io/badge/version-1.1.09-brightgreen.svg)](https://github.com/zhangdaiscott/JimuReport)
@@ -35,7 +35,6 @@ v1.1.09-beta | 20210125
 - 目前积木报表已经实现了完全在线设计，轻量级集成、类似excel的风格，像搭建积木一样在线拖拽设计报表！功能涵盖数据报表设计、打印设计、图表设计、大屏设计等！
 - 2019年底启动积木报表研发工作，历经一年多的时间，2020-11-03第一版出炉 [v1.0-beta](https://www.oschina.net/news/119666/jimureport-1-0-beta-released)
 - 2020年的持续打磨和研发，终于在2021-1-18发布了第一个正式版本 [v1.1.05](https://www.oschina.net/news/126916/jimureport-1-1-05-released)
-
 
 
 
