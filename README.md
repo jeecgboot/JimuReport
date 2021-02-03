@@ -42,7 +42,8 @@ v1.1.09-beta | 20210125
 开发文档
 -----------------------------------
 
-- [快速集成](http://report.jeecg.com/2078875)
+- [集成文档](http://report.jeecg.com/2078875)
+- [集成视频](https://www.bilibili.com/video/BV1Y541147m1?p=25)
 - [操作手册](http://report.jeecg.com/1423422)
 - [示例代码](https://github.com/zhangdaiscott/JimuReport)
 
