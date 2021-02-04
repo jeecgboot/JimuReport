@@ -42,6 +42,7 @@
         <ojdbc6.version>11.2.0.3</ojdbc6.version>
         <sqljdbc4.version>4.0</sqljdbc4.version>
         <mysql-connector-java.version>8.0.20</mysql-connector-java.version>
+        <minio.version>8.0.3</minio.version>
     </properties>
 
 
@@ -50,7 +51,7 @@
         <dependency>
             <groupId>com.jimureport</groupId>
             <artifactId>spring-boot-starter-jimureport</artifactId>
-            <version>1.1.09-beta</version>
+            <version>1.1.09</version>
         </dependency>
 
         <!-- SpringBoot-->
@@ -71,6 +72,14 @@
             <groupId>com.baomidou</groupId>
             <artifactId>dynamic-datasource-spring-boot-starter</artifactId>
             <version>3.2.0</version>
+        </dependency>
+
+        <!-- minio oss-->
+        <dependency>
+            <groupId>io.minio</groupId>
+            <artifactId>minio</artifactId>
+            <version>${minio.version}</version>
+            <optional>true</optional>
         </dependency>
 
         <!-- 数据库驱动 -->
