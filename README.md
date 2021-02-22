@@ -18,6 +18,7 @@ v1.1.09 | 20210205
 永久免费使用
 专注于开源，打造“专业 易用 智能”的报表工具
 开源宗旨：`功能永久免费、可以商用、代码不开放（大屏设计暂时不提供离线版本）`
+集成前提： 采用SpringBoot+MybatisPlus的脚手架项目才支持与JimuReport集成；当然你也可以直接运行jimureport-samples/jimureport-demo作为单独服务来使用！
 ```
 
 
