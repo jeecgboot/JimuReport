@@ -8,7 +8,7 @@ v1.2.0 | 20210308
 [![GitHub forks](https://img.shields.io/github/forks/zhangdaiscott/JimuReport.svg?style=social&label=Fork)](https://github.com/zhangdaiscott/JimuReport)
 
 
-积木报表，是一款免费的企业级Web报表工具，像搭建积木一样在线设计报表！功能涵盖，数据报表、打印设计、图表报表、大屏设计等！
+积木报表，是一款免费的企业级低代码报表工具，像搭建积木一样在线设计报表！功能涵盖，数据报表、打印设计、图表报表、大屏设计等！
 
 - Web 版报表设计器，类似于excel操作风格，通过拖拽完成报表设计。
 - 秉承“简单、易用、专业”的产品理念，极大的降低报表开发难度、缩短开发周期、节省成本、解决各类报表难题。
@@ -16,7 +16,7 @@ v1.2.0 | 20210308
 - 前提：采用SpringBoot+MybatisPlus的项目可以直接集成JimuReport；非此脚手架项目你可以直接运行jimureport-samples/jimureport-demo作为独立服务来使用！
 ```
 永久免费使用
-专注于开源，打造“专业 易用 智能”的报表工具
+专注于开源，打造“专业 易用 智能 低代码”的报表工具
 开源宗旨：`功能永久免费、可以商用、代码不开放（大屏设计暂时不提供离线版本）`
 ```
 
