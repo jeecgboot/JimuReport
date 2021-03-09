@@ -49,10 +49,10 @@
     <dependencies>
         <!-- JimuReport -->
         <dependency>
-            <groupId>com.jimureport</groupId>
-            <artifactId>spring-boot-starter-jimureport</artifactId>
-            <version>1.2.0</version>
-        </dependency>
+			<groupId>org.jeecgframework.jimureport</groupId>
+			<artifactId>spring-boot-starter-jimureport</artifactId>
+			<version>1.2.0</version>
+		</dependency>
 
         <!-- SpringBoot-->
         <dependency>

@@ -42,10 +42,30 @@ v1.2.0 | 20210308
 -----------------------------------
 
 - [集成文档](http://report.jeecg.com/2078875)
+
 - [集成视频](https://www.bilibili.com/video/BV1Y541147m1?p=25)
 - [操作手册](http://report.jeecg.com/1423422)
 - [示例代码](https://github.com/zhangdaiscott/JimuReport)
 
+快速集成
+-----------------------------------
+
+- 第一步：引入jimureport依赖jar
+
+   添加Maven依赖包
+```
+<dependency>
+    <groupId>org.jeecgframework.jimureport</groupId>
+    <artifactId>spring-boot-starter-jimureport</artifactId>
+    <version>1.2.0</version>
+</dependency>
+
+``` 
+
+
+- 第二步执行数据库脚本 Sql
+
+    [jimureport.sql](https://github.com/zhangdaiscott/JimuReport/blob/master/db "jimureport.sql")
 
 
 项目介绍
