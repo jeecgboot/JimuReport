@@ -1,6 +1,6 @@
 # JimuReport
 
-v1.2.0 | 20210308
+v1.3.0-beta | 20210319
 
 [![](https://img.shields.io/badge/Author-北京国炬软件-orange.svg)](http://jimureport.com)
 [![](https://img.shields.io/badge/version-1.2.0-brightgreen.svg)](https://github.com/zhangdaiscott/JimuReport)
@@ -13,7 +13,7 @@ v1.2.0 | 20210308
 - Web 版报表设计器，类似于excel操作风格，通过拖拽完成报表设计。
 - 秉承“简单、易用、专业”的产品理念，极大的降低报表开发难度、缩短开发周期、节省成本、解决各类报表难题。
 - 领先的企业级Web报表软件，采用纯Web在线技术，专注于解决企业报表快速制作难题。
-- 前提：采用SpringBoot+MybatisPlus的项目可以直接集成JimuReport；非此脚手架项目你可以直接运行jimureport-samples/jimureport-demo作为独立服务来使用！
+- 前提：采用SpringBoot的项目可以直接集成JimuReport；非此脚手架项目你可以直接运行jimureport-samples/jimureport-demo作为独立服务来使用！
 
 ```
 永久免费使用
@@ -57,7 +57,7 @@ v1.2.0 | 20210308
 <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>spring-boot-starter-jimureport</artifactId>
-    <version>1.2.0</version>
+    <version>1.3.0-beta</version>
 </dependency>
 
 ``` 
@@ -85,7 +85,7 @@ v1.2.0 | 20210308
 -----------------------------------
 >    永久免费，支持各种复杂报表，并且傻瓜式在线设计，非常的智能，低代码时代，这个是你的首选！
 
-- 采用SpringBoot+Mybatis-Plus的脚手架项目，都可以快速集成
+- 采用SpringBoot的脚手架项目，都可以快速集成
 - Web 版设计器，类似于excel操作风格，通过拖拽完成报表设计
 - 通过SQL、API等方式，将数据源与模板绑定。同时支持表达式，自动计算合计等功能，使计算工作量大大降低
 - 开发效率很高，傻瓜式在线报表设计，一分钟设计一个报表，又简单又强大
