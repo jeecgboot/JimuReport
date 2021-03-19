@@ -67,8 +67,8 @@ v1.3.0-beta | 20210319
 开发文档
 -----------------------------------
 
-- 操作手册：(http://report.jeecg.com/1423422)
-- 示例代码：(https://github.com/zhangdaiscott/JimuReport)
+- 操作手册： http://report.jeecg.com
+- 示例代码： https://github.com/zhangdaiscott/JimuReport
 - 官方网站： http://www.jimureport.com
 - 视频教程： http://jimureport.com/doc/video
 
