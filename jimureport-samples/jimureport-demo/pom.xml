@@ -49,10 +49,10 @@
     <dependencies>
         <!-- JimuReport -->
         <dependency>
-			<groupId>org.jeecgframework.jimureport</groupId>
-			<artifactId>spring-boot-starter-jimureport</artifactId>
-			<version>1.2.0</version>
-		</dependency>
+            <groupId>org.jeecgframework.jimureport</groupId>
+            <artifactId>spring-boot-starter-jimureport-minidao</artifactId>
+            <version>1.3.0-beta</version>
+        </dependency>
 
         <!-- SpringBoot-->
         <dependency>
@@ -62,16 +62,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-freemarker</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-boot-starter</artifactId>
-            <version>3.4.1</version>
-        </dependency>
-        <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>dynamic-datasource-spring-boot-starter</artifactId>
-            <version>3.2.0</version>
         </dependency>
 
         <!-- minio oss-->
