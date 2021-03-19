@@ -3,7 +3,7 @@
 v1.3.0-beta | 20210319
 
 [![](https://img.shields.io/badge/Author-北京国炬软件-orange.svg)](http://jimureport.com)
-[![](https://img.shields.io/badge/version-1.3.0-beat-brightgreen.svg)](https://github.com/zhangdaiscott/JimuReport)
+[![](https://img.shields.io/badge/version-1.3.0-brightgreen.svg)](https://github.com/zhangdaiscott/JimuReport)
 [![GitHub stars](https://img.shields.io/github/stars/zhangdaiscott/JimuReport.svg?style=social&label=Stars)](https://github.com/zhangdaiscott/JimuReport)
 [![GitHub forks](https://img.shields.io/github/forks/zhangdaiscott/JimuReport.svg?style=social&label=Fork)](https://github.com/zhangdaiscott/JimuReport)
 
@@ -39,20 +39,12 @@ v1.3.0-beta | 20210319
 
 
 
-开发文档
------------------------------------
-
-- [集成文档](http://report.jeecg.com/2078875)
-- [集成视频](https://www.bilibili.com/video/BV1Y541147m1?p=25)
-- [操作手册](http://report.jeecg.com/1423422)
-- [示例代码](https://github.com/zhangdaiscott/JimuReport)
 
 快速集成
 -----------------------------------
 
-- 第一步：引入jimureport依赖jar
+- 第一步：引入JimuReport依赖jar
 
-   添加Maven依赖包
 ```
 <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
@@ -62,22 +54,27 @@ v1.3.0-beta | 20210319
 
 ``` 
 
-
-- 第二步执行数据库脚本 Sql
+ 
+- 第二步：执行数据库脚本
 
     [jimureport.sql](https://github.com/zhangdaiscott/JimuReport/blob/master/db "jimureport.sql")
 
+- 第三步：详细集成文档
 
-项目介绍
+    http://report.jeecg.com/2078875
+	
+
+开发文档
 -----------------------------------
 
+- [操作手册](http://report.jeecg.com/1423422)
+- [示例代码](https://github.com/zhangdaiscott/JimuReport)
+- [集成视频](https://www.bilibili.com/video/BV1Y541147m1?p=25)
 - 官方网站： http://www.jimureport.com
 - 视频教程： http://jimureport.com/doc/video
 - QQ交流群： 212391162
 
 ![输入图片说明](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/jimureport_qq_qun1.png "在这里输入图片标题")
-
-
 
 
 
