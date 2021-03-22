@@ -1,23 +1,23 @@
 server:
-  port: 8000
+  port: 8085
 spring:
-#  #配置freemarker
-#  freemarker:
-#    suffix: .ftl
-#    charset: UTF-8
-#    template-loader-path:
-#      - classpath:/templates
-#  #配置静态资源
-#  mvc:
-#    static-path-pattern: /**
-#  resource:
-#    static-locations: classpath:/static/
+  #配置freemarker
+  freemarker:
+    suffix: .ftl
+    charset: UTF-8
+    template-loader-path:
+      - classpath:/templates
+  #配置静态资源
+  mvc:
+    static-path-pattern: /**
+  resource:
+    static-locations: classpath:/static/
   #配置数据库
   datasource:
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/jeecg-boot?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+    url: jdbc:mysql://${MYSQL-HOST:127.0.0.1}:${MYSQL-PORT:3306}/${MYSQL-DB:jimureport}?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&allowPublicKeyRetrieval=true
 #JimuReport[minidao配置]
 minidao :
   base-package: org.jeecg.modules.jmreport.desreport.dao*
