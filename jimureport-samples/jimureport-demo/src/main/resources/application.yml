@@ -1,12 +1,6 @@
 server:
   port: 8085
 spring:
-  #配置freemarker
-  freemarker:
-    suffix: .ftl
-    charset: UTF-8
-    template-loader-path:
-      - classpath:/templates
   #配置静态资源
   mvc:
     static-path-pattern: /**
