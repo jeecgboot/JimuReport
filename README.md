@@ -1,9 +1,9 @@
 # JimuReport - 积木报表
 
-v1.3.1-beta4 | 20210412
+v1.3.21-beta | 20210430
 
 [![](https://img.shields.io/badge/Author-北京国炬软件-orange.svg)](http://jimureport.com)
-[![](https://img.shields.io/badge/version-1.3.1-brightgreen.svg)](https://github.com/zhangdaiscott/JimuReport)
+[![](https://img.shields.io/badge/version-1.3.21-brightgreen.svg)](https://github.com/zhangdaiscott/JimuReport)
 [![GitHub stars](https://img.shields.io/github/stars/zhangdaiscott/JimuReport.svg?style=social&label=Stars)](https://github.com/zhangdaiscott/JimuReport)
 [![GitHub forks](https://img.shields.io/github/forks/zhangdaiscott/JimuReport.svg?style=social&label=Fork)](https://github.com/zhangdaiscott/JimuReport)
 
@@ -48,7 +48,7 @@ v1.3.1-beta4 | 20210412
 <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>spring-boot-starter-jimureport</artifactId>
-    <version>1.3.1-beta4</version>
+    <version>1.3.21-beta</version>
 </dependency>
 
 ``` 
