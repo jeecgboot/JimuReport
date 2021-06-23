@@ -41,8 +41,11 @@ v1.3.51-beta | 20210623
 
 快速集成
 -----------------------------------
+- 快速集成文档
 
-- 第一步：引入JimuReport依赖jar
+    http://report.jeecg.com/2078875
+
+- 引入JimuReport依赖
 
 ```
 <dependency>
@@ -54,13 +57,11 @@ v1.3.51-beta | 20210623
 ``` 
 
  
-- 第二步：执行数据库脚本
+- 执行数据库脚本
 
     [jimureport.sql](https://github.com/zhangdaiscott/JimuReport/blob/master/db "jimureport.sql")
 
-- 第三步：详细集成文档
 
-    http://report.jeecg.com/2078875
 	
 
 开发文档
