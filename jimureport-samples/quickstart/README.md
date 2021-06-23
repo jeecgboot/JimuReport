@@ -4,10 +4,10 @@
 
 - 1、本地安装jdk7+
 
-- 2、本地安装好mysql，执行初始化脚本（自动建库）
+- 2、创建库jimureport，并执行初始化脚本
 
 ```
-   jimureport.sql
+   jimureport.mysql5.7.create.sql
 ```
    
 - 3、双击start.bat 启动项目
