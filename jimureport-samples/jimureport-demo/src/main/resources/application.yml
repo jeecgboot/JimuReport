@@ -8,13 +8,14 @@ spring:
     static-locations: classpath:/static/
   #配置数据库
   datasource:
+    url: jdbc:mysql://${MYSQL-HOST:127.0.0.1}:${MYSQL-PORT:3306}/${MYSQL-DB:jimureport}?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&allowPublicKeyRetrieval=true
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://${MYSQL-HOST:127.0.0.1}:${MYSQL-PORT:3306}/${MYSQL-DB:jimureport}?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&allowPublicKeyRetrieval=true
-#JimuReport[minidao配置]
+#Minidao配置
 minidao :
-  base-package: org.jeecg.modules.jmreport.desreport.dao*
+  base-package: org.jeecg.modules.jmreport.*
+  #DB类型（mysql|postgresql|oracle|sqlserver|other）
   db-type: mysql
 #JimuReport[上传配置]
 jeecg :
@@ -26,11 +27,10 @@ jeecg :
     upload: /opt/upload
   # alioss
   oss:
-    endpoint: oss-cn-beijing.aliyuncs.com
+    endpoint: ??
     accessKey: ??
     secretKey: ??
-    staticDomain: ??
-    bucketName: ??
+    bucketName: jimureport
   # minio
   minio:
     minio_url: http://minio.jeecg.com
