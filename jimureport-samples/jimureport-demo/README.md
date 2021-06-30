@@ -3,7 +3,7 @@
 积木报表集成示例代码。
 
 ```
-集成示例，采用mysql5.7数据库
+采用mysql5.7数据库
 ```
 
 
@@ -14,12 +14,11 @@
 
 -  第一步：执行Mysql初始化脚步（自动创建数据库：jimureport）
 
-          db/1jimureport.mysql5.7.create.sql
-          db/2jimureport.mysql5.7.create.dict.sql
+          db/jimureport.mysql5.7.create.sql
            
--  第三步： 启动项目
+-  第三步： 启动项目（右键运行）
 
-           右键执行com.example.jmreport.JimuReportApplication
+           com.example.jmreport.JimuReportApplication
            
 -  第四步： 访问项目
 
