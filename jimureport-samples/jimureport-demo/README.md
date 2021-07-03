@@ -12,7 +12,7 @@
 使用步骤
 -----------------------------------
 
--  第一步：执行Mysql初始化脚步（自动创建数据库：jimureport）
+-  第一步：执行初始化脚步（自动创建数据库jimureport）
 
           db/jimureport.mysql5.7.create.sql
            
@@ -31,8 +31,10 @@
 镜像生成
 -----------------------------------
 -  第一步：进入项目 jimureport-demo 根目录
-   
--  第二步： 执行命令
+-  第二步：maven 执行package
+-  第三步： 执行命令
 
          docker-compose up -d
+-  第四步： 访问地址
 
+        http://localhost:8085/jmreport/list

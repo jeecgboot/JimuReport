@@ -10,6 +10,6 @@ WORKDIR /jimureport
 
 EXPOSE 8085
 
-ADD ./target/jimureport-demo-1.3.0.jar ./
+ADD ./target/jimureport-demo-1.3.jar ./
 
-CMD sleep 30;java -DMYSQL-HOST=jimureport-mysql -Dfile.encoding=utf-8 -Djava.security.egd=file:/dev/./urandom -jar jimureport-demo-1.3.0.jar
+CMD java -DMYSQL-HOST=jimureport-mysql -Dfile.encoding=utf-8 -Djava.security.egd=file:/dev/./urandom -jar jimureport-demo-1.3.jar
