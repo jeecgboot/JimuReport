@@ -40,4 +40,4 @@ jeecg :
 #输出sql日志
 logging:
   level:
-    org.jeecg.modules.jmreport : debug
+    org.jeecg.modules.jmreport : info
