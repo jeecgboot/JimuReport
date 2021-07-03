@@ -17,11 +17,11 @@ services:
     ports:
       - 3307:3306
 
-  jimureport-demo:
+  jimureport:
     build:
       context: .
     restart: always
-    container_name: jimureport-demo
-    image: jimureport-demo
+    container_name: jimureport
+    image: jimureport
     ports:
       - 8085:8085
