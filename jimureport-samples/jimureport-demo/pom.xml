@@ -10,7 +10,7 @@
     </parent>
     <groupId>org.jeecg</groupId>
     <artifactId>jimureport-demo</artifactId>
-    <version>1.3.5</version>
+    <version>1.3</version>
     <name>jimureport-demo</name>
 
     <url>http://www.jimureport.com</url>
