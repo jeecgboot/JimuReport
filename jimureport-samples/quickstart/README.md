@@ -4,7 +4,7 @@
 
 - 1、本地安装jdk7+
 
-- 2、创建库jimureport，并执行初始化脚本
+- 2、执行初始化脚本,创建库jimureport
 
 ```
    jimureport.mysql5.7.create.sql
