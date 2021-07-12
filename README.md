@@ -39,14 +39,16 @@ v1.3.6-beta | 20210630
 
 - 引入JimuReport依赖
 
+最新版本可以从 https://search.maven.org 中查询到
 ```
 <dependency>
   <groupId>org.jeecgframework.jimureport</groupId>
   <artifactId>jimureport-spring-boot-starter</artifactId>
-  <version>1.3.6-beta</version>
+  <version>${version}</version>
 </dependency>
 
 ``` 
+
 
  
 - 执行数据库脚本
