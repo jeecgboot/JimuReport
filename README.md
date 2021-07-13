@@ -1,10 +1,10 @@
 # JimuReport - 积木报表
 
-v1.3.6-beta | 20210630
+v1.3.64-beta | 20210712
 
 
 [![](https://img.shields.io/badge/Author-北京国炬软件-orange.svg)](http://jimureport.com)
-[![](https://img.shields.io/badge/version-1.3.6-brightgreen.svg)](https://github.com/zhangdaiscott/JimuReport)
+[![](https://img.shields.io/badge/version-1.3.64-brightgreen.svg)](https://github.com/zhangdaiscott/JimuReport)
 [![GitHub stars](https://img.shields.io/github/stars/zhangdaiscott/JimuReport.svg?style=social&label=Stars)](https://github.com/zhangdaiscott/JimuReport)
 [![GitHub forks](https://img.shields.io/github/forks/zhangdaiscott/JimuReport.svg?style=social&label=Fork)](https://github.com/zhangdaiscott/JimuReport)
 
@@ -110,6 +110,11 @@ v1.3.6-beta | 20210630
 
 报表截图
 -----------------------------------
+
+- 数据可视化（专业一流，数据可视化,解决各类报表难题）
+
+![](https://oscimg.oschina.net/oscnet/up-a2a8557722593e6c5a5e8f015a0df2b70e9.png)
+
 
 - 报表设计器（完全在线设计，简单易用）
 
