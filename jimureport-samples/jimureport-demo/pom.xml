@@ -55,7 +55,7 @@
         <dependency>
             <groupId>org.jeecgframework.jimureport</groupId>
             <artifactId>jimureport-spring-boot-starter</artifactId>
-            <version>1.3.65-beta</version>
+            <version>1.3.7</version>
         </dependency>
 
 
