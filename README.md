@@ -44,10 +44,10 @@ v1.3.7 | 20210802
 <dependency>
   <groupId>org.jeecgframework.jimureport</groupId>
   <artifactId>jimureport-spring-boot-starter</artifactId>
-  <version>${version}</version>
+  <version>1.3.7</version>
 </dependency>
 ``` 
-最新版本可以从 https://search.maven.org 中查询到
+最新版本可以从 http://jimureport.com/doc/log 中查询到
 
  
 - 执行数据库脚本
