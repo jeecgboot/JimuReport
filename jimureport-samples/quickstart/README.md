@@ -1,18 +1,18 @@
-# JimuReport快速启动
+# 免安装运行版本
 
-前提：
+启动步骤：
 
 - 1、本地安装jdk7+
 
-- 2、执行初始化脚本,创建库jimureport
+- 2、初始化数据库，执行下面的脚本
 
 ```
    jimureport.mysql5.7.create.sql
 ```
    
-- 3、双击start.bat 启动项目
+- 3、双击start.bat 启动
 
-- 4、启动成功后访问:http://localhost:8085/jmreport/list
+- 4、访问报表 :http://localhost:8085/jmreport/list
 
 
 
