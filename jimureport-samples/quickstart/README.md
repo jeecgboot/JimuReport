@@ -14,12 +14,13 @@
 - 3.执行下面的脚本，初始化数据库
 
 ```
-   quickstart/jimureport.mysql5.7.create.sql
+   jimureport.mysql5.7.create.sql
 ```
    
 - 4.双击 start.bat 启动
 
 - 5.访问报表
+
     http://localhost:8085/jmreport/list
 
 
