@@ -4,15 +4,22 @@
 
 - 1.本地安装jdk7+
 
-- 2.初始化数据库，执行下面的脚本
+- 2.下载项目 quickstart
 
 ```
-   jimureport.mysql5.7.create.sql
+    git clone https://gitee.com/jeecg/JimuReport.git
+	cd JimuReport/jimureport-samples/quickstart
+```
+
+- 3.执行下面的脚本，初始化数据库
+
+```
+   quickstart/jimureport.mysql5.7.create.sql
 ```
    
-- 3.双击 start.bat 启动
+- 4.双击 start.bat 启动
 
-- 4.访问报表
+- 5.访问报表
     http://localhost:8085/jmreport/list
 
 
