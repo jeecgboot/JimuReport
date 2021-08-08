@@ -1,6 +1,6 @@
 # JimuReport - 积木报表
 
-v1.3.7 | 20210802
+v1.3.75 | 20210809
 
 
 [![](https://img.shields.io/badge/Author-北京国炬软件-orange.svg)](http://jimureport.com)
@@ -44,7 +44,7 @@ v1.3.7 | 20210802
 <dependency>
   <groupId>org.jeecgframework.jimureport</groupId>
   <artifactId>jimureport-spring-boot-starter</artifactId>
-  <version>1.3.7</version>
+  <version>1.3.75</version>
 </dependency>
 ``` 
 最新版本可以从 http://jimureport.com/doc/log 中查询到
