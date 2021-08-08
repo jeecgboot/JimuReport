@@ -96,15 +96,23 @@ v1.3.7 | 20210802
 
 数据库兼容 
 -----------------------------------
+ 支持含常规、国产、大数据等28种数据库
 
-|   序号  |  数据库   |  是否兼容   |  提供脚本   |
-| --- | --- | --- | --- |
-|  1   |   mysql5.7+  |  支持   |   提供|
-|  2   |   oracle11g |  支持   |    暂未提供 |
-|  3   |   sqlserver2017  |  支持   |    暂未提供 |
-|  4   |   PostgreSQL|  暂未测试   |    未提供 |
+|  数据库   |  支持   |
+| --- | --- |
+|   MySQL   |  √   |
+|  Oracle、Oracle9i   |  √   |
+|  SqlServer、SqlServer2012   |  √   |
+|   PostgreSQL   |  √   |
+|   DB2、Informix   |  √   |
+|   MariaDB   |  √   |
+|  SQLite、Hsqldb、Derby、H2   |  √   |
+|   达梦、人大金仓、神通   |  √   |
+|   华为高斯、虚谷、瀚高数据库   |  √   |
+|   阿里云PolarDB、PPAS、HerdDB   |  √   |
+|  Hive、HBase、CouchBase   |  √   |
 
-未提供脚本的数据库，可以参考 [文档](https://my.oschina.net/jeecg/blog/4905722) 自己转。
+  未提供脚本的数据库，可以参考 [文档](https://my.oschina.net/jeecg/blog/4905722) 自己转。
 
 
 
