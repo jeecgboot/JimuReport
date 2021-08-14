@@ -1,4 +1,4 @@
-# jimureport-demo
+# jimureport-example
 
 积木报表集成示例代码。
 
@@ -14,11 +14,11 @@
 
 -  第一步：执行初始化脚步（自动创建数据库jimureport）
 
-          db/jimureport.mysql5.7.create.sql
+           db/jimureport.mysql5.7.create.sql
            
 -  第三步： 启动项目（右键运行）
 
-           com.example.jmreport.JimuReportApplication
+           org.jeecg.modules.JimuReportApplication
            
 -  第四步： 访问项目
 
@@ -35,9 +35,9 @@ Docker镜像制作
 
          git clone https://gitee.com/jeecg/JimuReport.git
 
--  第二步：进入项目 jimureport-demo 根目录
+-  第二步：进入项目 jimureport-example 根目录
 
-         cd JimuReport/jimureport-samples/jimureport-demo
+         cd JimuReport/jimureport-example
 	
 -  第三步：maven执行package
 
