@@ -1,4 +1,4 @@
-package com.example.jmreport;
+package org.jeecg.modules;
 
 import org.jeecg.modules.jmreport.common.util.oConvertUtils;
 import org.springframework.boot.SpringApplication;
