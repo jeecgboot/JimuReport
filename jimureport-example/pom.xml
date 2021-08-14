@@ -9,9 +9,9 @@
         <relativePath/>
     </parent>
     <groupId>org.jeecg</groupId>
-    <artifactId>jimureport-demo</artifactId>
+    <artifactId>jimureport-example</artifactId>
     <version>1.3</version>
-    <name>jimureport-demo</name>
+    <name>jimureport-example</name>
 
     <url>http://www.jimureport.com</url>
     <description>积木报表集成示例</description>
