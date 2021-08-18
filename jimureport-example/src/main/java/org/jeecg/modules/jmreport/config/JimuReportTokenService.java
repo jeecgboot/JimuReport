@@ -14,22 +14,43 @@ import javax.servlet.http.HttpServletRequest;
 @Component
 public class JimuReportTokenService implements JmReportTokenServiceI {
 
+    /**
+     * 通过请求获取Token
+     * @param request
+     * @return
+     */
     @Override
     public String getToken(HttpServletRequest request) {
+        //return TokenUtils.getTokenByRequest(request);
         return "123456";
     }
 
+    /**
+     * 通过Token获取登录人用户名
+     * @param token
+     * @return
+     */
     @Override
     public String getUsername(String token) {
+        // return JwtUtil.getUsername(token);
         return "admin";
     }
 
+    /**
+     * Token校验
+     * @param token
+     * @return
+     */
     @Override
     public Boolean verifyToken(String token) {
-        //token校验，默认返回true，需自己实现
+        //return TokenUtils.verifyToken(token, sysBaseAPI, redisUtil);
         return true;
     }
 
+    /**
+     *  自定义请求头
+     * @return
+     */
     @Override
     public HttpHeaders customApiHeader() {
         HttpHeaders header = new HttpHeaders();
