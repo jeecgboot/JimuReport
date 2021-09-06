@@ -1,10 +1,10 @@
 # JimuReport - 积木报表
 
-v1.3.78 | 20210812
+v1.3.795 | 20210906
 
 
 [![](https://img.shields.io/badge/Author-北京国炬软件-orange.svg)](http://jimureport.com)
-[![](https://img.shields.io/badge/version-1.3.78-brightgreen.svg)](https://github.com/zhangdaiscott/JimuReport)
+[![](https://img.shields.io/badge/version-1.3.79-brightgreen.svg)](https://github.com/zhangdaiscott/JimuReport)
 [![GitHub stars](https://img.shields.io/github/stars/zhangdaiscott/JimuReport.svg?style=social&label=Stars)](https://github.com/zhangdaiscott/JimuReport)
 [![GitHub forks](https://img.shields.io/github/forks/zhangdaiscott/JimuReport.svg?style=social&label=Fork)](https://github.com/zhangdaiscott/JimuReport)
 
@@ -44,9 +44,10 @@ v1.3.78 | 20210812
 <dependency>
   <groupId>org.jeecgframework.jimureport</groupId>
   <artifactId>jimureport-spring-boot-starter</artifactId>
-  <version>1.3.78</version>
+  <version>1.3.795</version>
 </dependency>
 ``` 
+
 最新版本可以从 http://jimureport.com/doc/log 中查询到
 
  
