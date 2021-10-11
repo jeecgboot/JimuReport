@@ -8,10 +8,11 @@
         <version>2.5.0</version>
         <relativePath/>
     </parent>
+
+    <name>jimureport-example</name>
     <groupId>org.jeecg</groupId>
     <artifactId>jimureport-example</artifactId>
-    <version>1.3</version>
-    <name>jimureport-example</name>
+    <version>1.4</version>
 
     <url>http://www.jimureport.com</url>
     <description>积木报表集成示例</description>
@@ -48,7 +49,7 @@
         <dependency>
             <groupId>org.jeecgframework.jimureport</groupId>
             <artifactId>jimureport-spring-boot-starter</artifactId>
-            <version>1.3.795</version>
+            <version>1.4.0-beta</version>
         </dependency>
 
 
