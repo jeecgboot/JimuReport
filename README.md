@@ -1,15 +1,15 @@
 # JimuReport - 积木报表
 
-v1.3.795 | 20210906
+v1.4.0-beta | 20211012
 
 
 [![](https://img.shields.io/badge/Author-北京国炬软件-orange.svg)](http://jimureport.com)
-[![](https://img.shields.io/badge/version-1.3.79-brightgreen.svg)](https://github.com/zhangdaiscott/JimuReport)
+[![](https://img.shields.io/badge/version-1.4.0-brightgreen.svg)](https://github.com/zhangdaiscott/JimuReport)
 [![GitHub stars](https://img.shields.io/github/stars/zhangdaiscott/JimuReport.svg?style=social&label=Stars)](https://github.com/zhangdaiscott/JimuReport)
 [![GitHub forks](https://img.shields.io/github/forks/zhangdaiscott/JimuReport.svg?style=social&label=Fork)](https://github.com/zhangdaiscott/JimuReport)
 
 
- 一款免费的数据可视化工具，报表和大屏设计，像搭建积木一样在线设计报表！功能涵盖，数据报表、打印设计、图表报表、大屏设计等！
+ 一款免费的数据可视化报表，含报表和大屏设计，像搭建积木一样在线设计报表！功能涵盖，数据报表、打印设计、图表报表、大屏设计等！
 
 - Web 版报表设计器，类似于excel操作风格，通过拖拽完成报表设计。
 - 秉承“简单、易用、专业”的产品理念，极大的降低报表开发难度、缩短开发周期、节省成本、解决各类报表难题。
@@ -44,7 +44,7 @@ v1.3.795 | 20210906
 <dependency>
   <groupId>org.jeecgframework.jimureport</groupId>
   <artifactId>jimureport-spring-boot-starter</artifactId>
-  <version>1.3.795</version>
+  <version>1.4.0-beta</version>
 </dependency>
 ``` 
 
