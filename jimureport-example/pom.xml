@@ -49,7 +49,7 @@
         <dependency>
             <groupId>org.jeecgframework.jimureport</groupId>
             <artifactId>jimureport-spring-boot-starter</artifactId>
-            <version>1.4.0-beta</version>
+            <version>1.4.0</version>
         </dependency>
 
 
