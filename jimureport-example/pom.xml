@@ -12,7 +12,7 @@
     <name>jimureport-example</name>
     <groupId>org.jeecg</groupId>
     <artifactId>jimureport-example</artifactId>
-    <version>1.4</version>
+    <version>1.4.2</version>
 
     <url>http://www.jimureport.com</url>
     <description>积木报表集成示例</description>
