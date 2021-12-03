@@ -57,7 +57,7 @@ v1.4.2 | 2021-12-06
 
 - 免安装运行版
 
-    [Quickstart版本](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/jimureport/jimureport-quickstart-1.4.0-beta.zip)
+    [Quickstart版本](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/jimureport/jimureport-quickstart-1.4.2.zip)
 	
 
 开发文档
