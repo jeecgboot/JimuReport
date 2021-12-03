@@ -40,7 +40,7 @@
         <java.version>1.8</java.version>
         <minio.version>8.0.3</minio.version>
         <!-- DB驱动 -->
-        <mysql-connector-java.version>8.0.20</mysql-connector-java.version>
+        <mysql-connector-java.version>8.0.27</mysql-connector-java.version>
     </properties>
 
 
@@ -49,7 +49,7 @@
         <dependency>
             <groupId>org.jeecgframework.jimureport</groupId>
             <artifactId>jimureport-spring-boot-starter</artifactId>
-            <version>1.4.0</version>
+            <version>1.4.2</version>
         </dependency>
 
 
