@@ -55,9 +55,9 @@ v1.4.32 | 2022-03-07
 
     [jimureport.sql](https://github.com/zhangdaiscott/JimuReport/blob/master/db "jimureport.sql")
 
-- 免安装运行版
+- Docker安装
 
-    [Quickstart版本](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/jimureport/jimureport-quickstart-1.4.2.zip)
+    [Docker启动](http://report.jeecg.com/2368854)
 	
 
 开发文档
