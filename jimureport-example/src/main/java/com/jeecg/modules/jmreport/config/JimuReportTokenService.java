@@ -1,4 +1,4 @@
-package org.jeecg.modules.jmreport.config;
+package com.jeecg.modules.jmreport.config;
 
 import org.jeecg.modules.jmreport.api.JmReportTokenServiceI;
 import org.springframework.http.HttpHeaders;
@@ -21,6 +21,7 @@ public class JimuReportTokenService implements JmReportTokenServiceI {
      */
     @Override
     public String getToken(HttpServletRequest request) {
+         //System.out.println("---------call---------getToken-----------------------");
         //return TokenUtils.getTokenByRequest(request);
         return "123456";
     }
@@ -43,6 +44,7 @@ public class JimuReportTokenService implements JmReportTokenServiceI {
      */
     @Override
     public Boolean verifyToken(String token) {
+        System.out.println("---------verify-----Token---------------");
         //return TokenUtils.verifyToken(token, sysBaseAPI, redisUtil);
         return true;
     }

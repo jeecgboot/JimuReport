@@ -1,4 +1,4 @@
-package org.jeecg.modules.jmreport.controller;
+package com.jeecg.modules.jmreport.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;

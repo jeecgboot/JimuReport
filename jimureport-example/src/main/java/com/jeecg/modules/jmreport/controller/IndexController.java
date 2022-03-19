@@ -1,4 +1,4 @@
-package org.jeecg.modules.jmreport.controller;
+package com.jeecg.modules.jmreport.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
