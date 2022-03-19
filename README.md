@@ -1,6 +1,6 @@
 # JimuReport - 积木报表
 
-v1.4.32 | 2022-03-07
+v1.4.4-beta | 2022-03-19
 
 
 [![](https://img.shields.io/badge/Author-北京国炬软件-orange.svg)](http://jimureport.com)
@@ -44,7 +44,7 @@ v1.4.32 | 2022-03-07
 <dependency>
   <groupId>org.jeecgframework.jimureport</groupId>
   <artifactId>jimureport-spring-boot-starter</artifactId>
-  <version>1.4.32</version>
+  <version>1.4.4-beta</version>
 </dependency>
 ``` 
 
