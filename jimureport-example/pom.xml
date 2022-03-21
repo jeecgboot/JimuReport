@@ -72,19 +72,12 @@
             <optional>true</optional>
         </dependency>
 
-        <!-- 数据库驱动 -->
+        <!-- ============================数据库驱动========================== -->
         <!--mysql-->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>${mysql-connector-java.version}</version>
-            <scope>runtime</scope>
-        </dependency>
-        <!--  sqlserver-->
-        <dependency>
-            <groupId>com.microsoft.sqlserver</groupId>
-            <artifactId>sqljdbc4</artifactId>
-            <version>4.0</version>
             <scope>runtime</scope>
         </dependency>
         <!-- oracle驱动-->
@@ -94,14 +87,22 @@
             <version>11.2.0.3</version>
             <scope>runtime</scope>
         </dependency>
-        <!-- postgresql驱动-->
+        <!-- ===需要什么数据库，手工打开注释=== -->
+        <!--  sqlserver
+        <dependency>
+            <groupId>com.microsoft.sqlserver</groupId>
+            <artifactId>sqljdbc4</artifactId>
+            <version>4.0</version>
+            <scope>runtime</scope>
+        </dependency>-->
+        <!-- postgresql驱动
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
             <version>42.2.6</version>
             <scope>runtime</scope>
-        </dependency>
-        <!-- 达梦驱动 -->
+        </dependency>-->
+        <!-- 达梦驱动
         <dependency>
             <groupId>com.dameng</groupId>
             <artifactId>DmJdbcDriver18</artifactId>
@@ -113,56 +114,57 @@
             <artifactId>DmDialectForHibernate</artifactId>
             <version>5.3</version>
             <scope>runtime</scope>
-        </dependency>
-        <!-- sqlite -->
+        </dependency>-->
+        <!-- sqlite
         <dependency>
             <groupId>org.xerial</groupId>
             <artifactId>sqlite-jdbc</artifactId>
             <version>3.34.0</version>
             <scope>runtime</scope>
-        </dependency>
-        <!--hsqldb-->
+        </dependency>-->
+        <!--hsqldb
         <dependency>
             <groupId>org.hsqldb</groupId>
             <artifactId>hsqldb</artifactId>
             <version>2.2.8</version>
             <scope>runtime</scope>
-        </dependency>
-        <!--h2-->
+        </dependency>-->
+        <!--h2
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
             <version>1.4.197</version>
             <scope>runtime</scope>
-        </dependency>
-        <!--derby-->
+        </dependency>-->
+        <!--derby
         <dependency>
             <groupId>org.apache.derby</groupId>
             <artifactId>derbyclient</artifactId>
             <version>10.11.1.1</version>
             <scope>runtime</scope>
-        </dependency>
-        <!--db2-->
+        </dependency>-->
+        <!--db2
         <dependency>
             <groupId>com.ibm.db2</groupId>
             <artifactId>jcc</artifactId>
             <version>11.5.0.0</version>
             <scope>runtime</scope>
-        </dependency>
-        <!--神通-->
+        </dependency>-->
+        <!--神通
         <dependency>
             <groupId>com.csicit.thirdparty</groupId>
             <artifactId>oscar</artifactId>
             <version>1.0.1</version>
             <scope>runtime</scope>
-        </dependency>
-        <!--人大金仓-->
+        </dependency>-->
+        <!--人大金仓
         <dependency>
             <groupId>kingbase</groupId>
             <artifactId>kingbase8</artifactId>
             <version>8</version>
             <scope>runtime</scope>
-        </dependency>
+        </dependency>-->
+        <!-- ============================数据库驱动========================== -->
     </dependencies>
 
     <build>
