@@ -39,7 +39,6 @@ v1.4.4-beta | 2022-03-21
 
 - 引入JimuReport依赖
 
-
 ```
 <dependency>
   <groupId>org.jeecgframework.jimureport</groupId>
@@ -48,12 +47,8 @@ v1.4.4-beta | 2022-03-21
 </dependency>
 ``` 
 
-最新版本号可以从 http://jimureport.com/doc/log 中查询到
+通过 http://jimureport.com/doc/log 查询最新版本号
 
- 
-- 执行数据库脚本
-
-    [jimureport.sql](https://github.com/zhangdaiscott/JimuReport/blob/master/db "jimureport.sql")
 
 - Docker安装
 
