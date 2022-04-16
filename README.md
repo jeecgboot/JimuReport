@@ -53,7 +53,7 @@ v1.5.0-beta | 2022-04-18
 <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimureport-spring-boot-starter</artifactId>
-    <version>${jimureport.version}</version>
+    <version>1.5.0-beta</version>
     <exclusions>
         <exclusion>
             <artifactId>minidao-spring-boot-starter</artifactId>
