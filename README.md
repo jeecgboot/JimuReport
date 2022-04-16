@@ -1,10 +1,10 @@
 # JimuReport - 积木报表
 
-v1.4.4-beta | 2022-03-21
+v1.5.0-beta | 2022-04-18
 
 
 [![](https://img.shields.io/badge/Author-北京国炬软件-orange.svg)](http://jimureport.com)
-[![](https://img.shields.io/badge/version-1.4.4-brightgreen.svg)](https://github.com/zhangdaiscott/JimuReport)
+[![](https://img.shields.io/badge/version-1.5.0-brightgreen.svg)](https://github.com/zhangdaiscott/JimuReport)
 [![GitHub stars](https://img.shields.io/github/stars/zhangdaiscott/JimuReport.svg?style=social&label=Stars)](https://github.com/zhangdaiscott/JimuReport)
 [![GitHub forks](https://img.shields.io/github/forks/zhangdaiscott/JimuReport.svg?style=social&label=Fork)](https://github.com/zhangdaiscott/JimuReport)
 
@@ -43,9 +43,30 @@ v1.4.4-beta | 2022-03-21
 <dependency>
   <groupId>org.jeecgframework.jimureport</groupId>
   <artifactId>jimureport-spring-boot-starter</artifactId>
-  <version>1.4.4-beta</version>
+  <version>1.5.0-beta</version>
 </dependency>
 ``` 
+
+- 如果出现jsqlparser不兼容问题，请这么引用
+
+```
+<dependency>
+    <groupId>org.jeecgframework.jimureport</groupId>
+    <artifactId>jimureport-spring-boot-starter</artifactId>
+    <version>${jimureport.version}</version>
+    <exclusions>
+        <exclusion>
+            <artifactId>minidao-spring-boot-starter</artifactId>
+            <groupId>org.jeecgframework</groupId>
+        </exclusion>
+    </exclusions>
+</dependency>
+<dependency>
+    <groupId>org.jeecgframework</groupId>
+    <artifactId>minidao-spring-boot-starter</artifactId>
+    <version>1.8.8</version>
+</dependency>
+```
 
 通过 http://jimureport.com/doc/log 查询最新版本号
 
