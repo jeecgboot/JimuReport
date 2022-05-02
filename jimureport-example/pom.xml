@@ -46,6 +46,12 @@
 
 
     <dependencies>
+        <!-- Lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+
         <!-- JimuReport -->
         <dependency>
             <groupId>org.jeecgframework.jimureport</groupId>

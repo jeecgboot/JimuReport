@@ -1,4 +1,4 @@
-# JimuReport - 积木报表
+# JimuReport - 积木报表（一款免费Web报表工具）
 
 v1.5.0-beta | 2022-04-18
 
