@@ -1,6 +1,6 @@
 # JimuReport - 积木报表（一款免费Web报表工具）
 
-v1.5.0-beta | 2022-04-18
+v1.5.0 | 2022-05-26
 
 
 [![](https://img.shields.io/badge/Author-北京国炬软件-orange.svg)](http://jimureport.com)
@@ -43,7 +43,7 @@ v1.5.0-beta | 2022-04-18
 <dependency>
   <groupId>org.jeecgframework.jimureport</groupId>
   <artifactId>jimureport-spring-boot-starter</artifactId>
-  <version>1.5.0-beta</version>
+  <version>1.5.0</version>
 </dependency>
 ``` 
 
@@ -53,7 +53,7 @@ v1.5.0-beta | 2022-04-18
 <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimureport-spring-boot-starter</artifactId>
-    <version>1.5.0-beta</version>
+    <version>1.5.0</version>
     <exclusions>
         <exclusion>
             <artifactId>minidao-spring-boot-starter</artifactId>
