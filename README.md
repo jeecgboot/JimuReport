@@ -71,9 +71,10 @@ v1.5.0 | 2022-05-26
 通过 http://jimureport.com/doc/log 查询最新版本号
 
 
-- Docker安装
+免安装版和docker版本
+-----------------------------------
 
-    [Docker启动](http://report.jeecg.com/2368854)
+- http://jimureport.com/download
 	
 
 开发文档
