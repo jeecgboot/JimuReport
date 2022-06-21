@@ -41,7 +41,7 @@
         <java.version>1.8</java.version>
         <minio.version>8.0.3</minio.version>
         <!-- DB驱动 -->
-        <mysql-connector-java.version>8.0.27</mysql-connector-java.version>
+        <mysql-connector-java.version>8.0.28</mysql-connector-java.version>
     </properties>
 
 
