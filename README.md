@@ -1,10 +1,10 @@
 # JimuReport - 积木报表（一款免费Web报表工具）
 
-v1.5.0 | 2022-05-26
+v1.5.1 | 2022-07-11
 
 
 [![](https://img.shields.io/badge/Author-北京国炬软件-orange.svg)](http://jimureport.com)
-[![](https://img.shields.io/badge/version-1.5.0-brightgreen.svg)](https://github.com/zhangdaiscott/JimuReport)
+[![](https://img.shields.io/badge/version-1.5.1-brightgreen.svg)](https://github.com/zhangdaiscott/JimuReport)
 [![GitHub stars](https://img.shields.io/github/stars/zhangdaiscott/JimuReport.svg?style=social&label=Stars)](https://github.com/zhangdaiscott/JimuReport)
 [![GitHub forks](https://img.shields.io/github/forks/zhangdaiscott/JimuReport.svg?style=social&label=Fork)](https://github.com/zhangdaiscott/JimuReport)
 
@@ -43,7 +43,7 @@ v1.5.0 | 2022-05-26
 <dependency>
   <groupId>org.jeecgframework.jimureport</groupId>
   <artifactId>jimureport-spring-boot-starter</artifactId>
-  <version>1.5.0</version>
+  <version>1.5.1</version>
 </dependency>
 ``` 
 
@@ -53,7 +53,7 @@ v1.5.0 | 2022-05-26
 <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimureport-spring-boot-starter</artifactId>
-    <version>1.5.0</version>
+    <version>1.5.1</version>
     <exclusions>
         <exclusion>
             <artifactId>minidao-spring-boot-starter</artifactId>
