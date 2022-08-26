@@ -71,20 +71,16 @@ v1.5.2 | 2022-07-12
 通过 http://jimureport.com/doc/log 查询最新版本号
 
 
-免安装版和docker版本
------------------------------------
-
-- http://jimureport.com/download
-	
-
 开发文档
 -----------------------------------
 
+- 反馈bug：  在github上[发issues](https://github.com/jeecgboot/JimuReport/issues/new)反馈问题
 - 官方网站： http://www.jimureport.com
 - 官方文档： http://report.jeecg.com
 - 视频教程： http://jimureport.com/doc/video
 
 ![输入图片说明](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/jimureport_qq_qun1.png "在这里输入图片标题")
+
 
 
 产生背景
@@ -106,6 +102,20 @@ v1.5.2 | 2022-07-12
 - 支持打印设计（支持套打、背景打印等）可设置打印边距、方向、页眉页脚等参数 一键快速打印 同时可实现发票套打，不动产证等精准、无缝打印
 - 大屏设计器支持几十种图表样式，可自由拼接、组合，设计炫酷大屏
 - 可设计各种类型的单据、大屏，如出入库单、销售单、财务报表、合同、监控大屏、旅游数据大屏等
+
+
+
+	
+
+
+
+
+免安装版和docker版本
+-----------------------------------
+
+- http://jimureport.com/download
+
+
 
 
 
