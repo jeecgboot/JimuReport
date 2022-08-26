@@ -47,27 +47,6 @@ v1.5.2 | 2022-07-12
 </dependency>
 ``` 
 
-- 如果出现jsqlparser不兼容问题，请这么引用
-
-```
-<dependency>
-    <groupId>org.jeecgframework.jimureport</groupId>
-    <artifactId>jimureport-spring-boot-starter</artifactId>
-    <version>1.5.2</version>
-    <exclusions>
-        <exclusion>
-            <artifactId>minidao-spring-boot-starter</artifactId>
-            <groupId>org.jeecgframework</groupId>
-        </exclusion>
-    </exclusions>
-</dependency>
-<dependency>
-    <groupId>org.jeecgframework</groupId>
-    <artifactId>minidao-spring-boot-starter</artifactId>
-    <version>1.8.8</version>
-</dependency>
-```
-
 通过 http://jimureport.com/doc/log 查询最新版本号
 
 
