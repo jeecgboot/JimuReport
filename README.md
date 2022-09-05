@@ -26,9 +26,10 @@ v1.5.2 | 2022-07-12
 快速体验： [www.jimureport.com](http://www.jimureport.com "www.jimureport.com")
 
 
+反馈问题
+-----------------------------------
 
-
-
+> 发现bug 请在github上[发issue](https://github.com/jeecgboot/JimuReport/issues/new)
 
 
 快速集成
@@ -53,7 +54,6 @@ v1.5.2 | 2022-07-12
 开发文档
 -----------------------------------
 
-- 反馈bug：  在github上[发issues](https://github.com/jeecgboot/JimuReport/issues/new)反馈问题
 - 官方网站： http://www.jimureport.com
 - 官方文档： http://report.jeecg.com
 - 视频教程： http://jimureport.com/doc/video
