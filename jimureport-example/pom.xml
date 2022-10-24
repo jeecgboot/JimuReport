@@ -58,7 +58,7 @@
             <artifactId>jimureport-spring-boot-starter</artifactId>
             <version>${jimureport.version}</version>
         </dependency>
-        <!-- JimuReport mongo redis 支持包 -->
+        <!-- JimuReport mogodb/redis支持包（按需添加） -->
         <dependency>
             <groupId>org.jeecgframework.jimureport</groupId>
             <artifactId>jimureport-nosql-starter</artifactId>
