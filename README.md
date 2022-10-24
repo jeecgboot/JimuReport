@@ -52,7 +52,7 @@ v1.5.4 | 2022-10-25
 ```
 <dependency>
   <groupId>org.jeecgframework.jimureport</groupId>
-  <artifactId>jimureport-spring-boot-starter</artifactId>
+  <artifactId>jimureport-nosql-starter</artifactId>
   <version>1.5.4</version>
 </dependency>
 ``` 
