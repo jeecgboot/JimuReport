@@ -1,6 +1,6 @@
 # JimuReport - 积木报表（一款免费Web报表工具）
 
-v1.5.2 | 2022-07-12
+v1.5.4 | 2022-10-25
 
 
 [![](https://img.shields.io/badge/Author-北京国炬软件-orange.svg)](http://jimureport.com)
@@ -45,7 +45,15 @@ v1.5.2 | 2022-07-12
 <dependency>
   <groupId>org.jeecgframework.jimureport</groupId>
   <artifactId>jimureport-spring-boot-starter</artifactId>
-  <version>1.5.2</version>
+  <version>1.5.4</version>
+</dependency>
+``` 
+- 按需引入JimuReport依赖（mongo redis 支持包）
+```
+<dependency>
+  <groupId>org.jeecgframework.jimureport</groupId>
+  <artifactId>jimureport-spring-boot-starter</artifactId>
+  <version>1.5.4</version>
 </dependency>
 ``` 
 
