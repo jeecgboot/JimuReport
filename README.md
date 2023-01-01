@@ -64,6 +64,7 @@ v1.5.6 | 2022-12-12
 -----------------------------------
 
 - 官方网站： http://www.jimureport.com
+- 在线服务 ：  [大屏/报表在线设计](http://jimureport.com/login)  |  [敲敲云—零代码](http://app.qiaoqiaoyun.com)
 - 官方文档： http://report.jeecg.com
 - 视频教程： http://jimureport.com/doc/video
 
