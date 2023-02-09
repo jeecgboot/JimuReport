@@ -3,7 +3,7 @@
 v1.5.6 | 2022-12-12
 
 
-[![](https://img.shields.io/badge/Author-北京国炬软件-orange.svg)](http://jimureport.com)
+[![](https://img.shields.io/badge/Author-北京敲敲云科技-orange.svg)](http://jimureport.com)
 [![](https://img.shields.io/badge/version-1.5.6-brightgreen.svg)](https://github.com/zhangdaiscott/JimuReport)
 [![](https://img.shields.io/badge/Blog-官方博客-blue.svg)](https://jeecg.blog.csdn.net)
 [![GitHub stars](https://img.shields.io/github/stars/zhangdaiscott/JimuReport.svg?style=social&label=Stars)](https://github.com/zhangdaiscott/JimuReport)
