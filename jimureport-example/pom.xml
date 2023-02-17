@@ -41,7 +41,7 @@
         <java.version>1.8</java.version>
         <minio.version>8.4.6</minio.version>
         <!-- DB驱动 -->
-        <mysql-connector-java.version>8.0.27</mysql-connector-java.version>
+        <mysql-connector-java.version>8.0.28</mysql-connector-java.version>
     </properties>
 
 
@@ -110,7 +110,7 @@
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
-            <version>42.2.25</version>
+            <version>42.3.3</version>
             <scope>runtime</scope>
         </dependency>
         <!-- ===需要什么数据库，手工打开注释=== -->
@@ -138,7 +138,7 @@
         <dependency>
             <groupId>org.hsqldb</groupId>
             <artifactId>hsqldb</artifactId>
-            <version>2.2.8</version>
+            <version>2.7.1</version>
             <scope>runtime</scope>
         </dependency>
         <!--h2-->
