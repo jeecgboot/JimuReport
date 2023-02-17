@@ -159,7 +159,7 @@
         <dependency>
             <groupId>com.ibm.db2</groupId>
             <artifactId>jcc</artifactId>
-            <version>11.5.0.0</version>
+            <version>11.5.8.0</version>
             <scope>runtime</scope>
         </dependency>
         <!--神通-->
