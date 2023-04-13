@@ -14,7 +14,7 @@
     <artifactId>jimureport-example</artifactId>
     <version>1.5</version>
 
-    <url>http://www.jimureport.com</url>
+    <url>http://bi.qiaoqiaoyun.com</url>
     <description>积木报表集成示例</description>
 
     <repositories>

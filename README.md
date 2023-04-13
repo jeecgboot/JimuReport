@@ -3,7 +3,7 @@
 v1.5.6 | 2022-12-12
 
 
-[![](https://img.shields.io/badge/Author-北京敲敲云科技-orange.svg)](http://jimureport.com)
+[![](https://img.shields.io/badge/Author-北京敲敲云科技-orange.svg)](http://bi.qiaoqiaoyun.com)
 [![](https://img.shields.io/badge/version-1.5.6-brightgreen.svg)](https://github.com/zhangdaiscott/JimuReport)
 [![](https://img.shields.io/badge/Blog-官方博客-blue.svg)](https://jeecg.blog.csdn.net)
 [![GitHub stars](https://img.shields.io/github/stars/zhangdaiscott/JimuReport.svg?style=social&label=Stars)](https://github.com/zhangdaiscott/JimuReport)
@@ -24,7 +24,7 @@ v1.5.6 | 2022-12-12
 
 
 
-快速体验： [www.jimureport.com](http://www.jimureport.com "www.jimureport.com")
+快速体验： [bi.qiaoqiaoyun.com](http://bi.qiaoqiaoyun.com "bi.qiaoqiaoyun.com")
 
 
 反馈问题
@@ -57,16 +57,16 @@ v1.5.6 | 2022-12-12
 </dependency>
 ``` 
 
-通过 http://jimureport.com/doc/log 查询最新版本号
+通过 http://bi.qiaoqiaoyun.com/doc/log 查询最新版本号
 
 
 开发文档
 -----------------------------------
 
-- 官方网站： http://www.jimureport.com
-- 在线服务 ：  [大屏/报表在线设计](http://jimureport.com/login)  |  [敲敲云—零代码](http://app.qiaoqiaoyun.com)
+- 官方网站： http://bi.qiaoqiaoyun.com
+- 在线服务 ：  [大屏/报表在线设计](http://bi.qiaoqiaoyun.com/login)  |  [敲敲云—零代码](http://app.qiaoqiaoyun.com)
 - 官方文档： https://help.jeecg.com/jimureport
-- 视频教程： http://jimureport.com/doc/video
+- 视频教程： http://bi.qiaoqiaoyun.com/doc/video
 
 ![输入图片说明](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/jimureport_qq_qun1.png "在这里输入图片标题")
 
@@ -102,7 +102,7 @@ v1.5.6 | 2022-12-12
 免安装版和docker版本
 -----------------------------------
 
-- http://jimureport.com/download
+- http://bi.qiaoqiaoyun.com/download
 
 
 
@@ -161,7 +161,7 @@ v1.5.6 | 2022-12-12
 
 功能清单
 -----------------------------------
-更多功能清单: [http://jimureport.com/plan](http://jimureport.com/plan)
+更多功能清单: [http://bi.qiaoqiaoyun.com/plan](http://bi.qiaoqiaoyun.com/plan)
 
 ```
 ├─报表设计器
