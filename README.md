@@ -137,7 +137,7 @@ v1.5.8 | 2023-05-11
 ![输入图片说明](https://static.oschina.net/uploads/img/201903/08155608_0EFX.png "在这里输入图片标题")
 
 
-报表截图
+报表设计效果
 -----------------------------------
 
 - 数据可视化（专业一流，数据可视化,解决各类报表难题）
@@ -163,6 +163,25 @@ v1.5.8 | 2023-05-11
 ![](https://oscimg.oschina.net/oscnet/up-3eda428ef182cb64a1a8e132e4bfeb87718.png)
 ![](https://oscimg.oschina.net/oscnet/up-22096123c5b6a10a801967c33cc33a7af11.png)
 
+
+大屏设计效果
+-----------------------------------
+
+![](https://oscimg.oschina.net/oscnet/up-402a6034124474bfef8dfc5b4b2bac1ce5c.png)
+
+![](https://oscimg.oschina.net/oscnet/up-6f7ba2e2ebbeea0d203db8d69fd87644c9f.png)
+
+![](https://oscimg.oschina.net/oscnet/up-ee8d34f318da466b8a6070a6e3111d12ce7.png)
+
+![](https://oscimg.oschina.net/oscnet/up-6b81781b43086819049c4421206810667c5.png)
+
+
+仪表盘设计器
+-----------------------------------
+
+![](https://oscimg.oschina.net/oscnet/up-9c9d41288c31398d76b390bdd400f13a582.png)
+
+![](https://oscimg.oschina.net/oscnet/up-fad98d42b2cf92f92a903c9cff7579f18ec.png)
 
 
 
