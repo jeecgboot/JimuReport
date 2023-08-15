@@ -26,6 +26,23 @@ jeecg :
     minio_name: ??
     minio_pass: ??
     bucketName: ??
+  #大屏报表参数设置
+  jmreport:
+    #只看自己的数据
+    saas: false
+    #是否开启租户模式 Support By v1.5.5+
+    openTenant: true
+    #安全模式(敏感接口校验、saas模式下不允许使用平台数据源)
+    #safeMode: true
+    # 列索引
+    col: 100
+    #接口超时设置（毫秒）
+    connect-timeout: 300000
+    pageSize:
+      - 10
+      - 20
+      - 30
+      - 40
 #输出sql日志
 logging:
   level:
