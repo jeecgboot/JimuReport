@@ -38,6 +38,17 @@ public class JimuReportTokenService implements JmReportTokenServiceI {
     }
 
     /**
+     * 自定义用户拥有的角色
+     * 
+     * @param token
+     * @return
+     */
+    @Override
+    public String[] getRoles(String token) {
+        return new String[]{"admin"};
+    }
+
+    /**
      * Token校验
      * @param token
      * @return

@@ -1,6 +1,7 @@
 package com.jeecg.modules.jmreport.testdb;
 
 import lombok.extern.slf4j.Slf4j;
+import org.jeecg.modules.jmreport.common.util.OkConvertUtils;
 import org.jeecg.modules.jmreport.desreport.model.JmPage;
 import org.jeecg.modules.jmreport.api.data.IDataSetFactory;
 import org.springframework.stereotype.Component;
@@ -51,11 +52,16 @@ public class TestRpSpringBean implements IDataSetFactory {
      */
     @Override
     public JmPage createPageData(Map<String, Object> param) {
+        //默认必须有分页参数 pageSize
+        if(!param.containsKey("pageSize")){
+            param.put("pageSize",1);
+        }
+
         log.info(" 自定义javabean，有分页 :" + param);
 
         JmPage page = new JmPage();
         List<Map<String, Object>> ls = new ArrayList<>();
-        int pageSize = Integer.parseInt(param.get("pageSize").toString());
+        int pageSize =  OkConvertUtils.getInt(param.get("pageSize").toString(),1);
 
         Map<String, Object> obj2 = new HashMap<>();
         obj2.put("name", "张三");
