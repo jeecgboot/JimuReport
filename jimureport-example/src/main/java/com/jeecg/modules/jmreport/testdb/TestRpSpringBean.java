@@ -1,7 +1,6 @@
 package com.jeecg.modules.jmreport.testdb;
 
 import lombok.extern.slf4j.Slf4j;
-import org.jeecg.modules.jmreport.common.util.OkConvertUtils;
 import org.jeecg.modules.jmreport.desreport.model.JmPage;
 import org.jeecg.modules.jmreport.api.data.IDataSetFactory;
 import org.springframework.stereotype.Component;
@@ -61,7 +60,7 @@ public class TestRpSpringBean implements IDataSetFactory {
 
         JmPage page = new JmPage();
         List<Map<String, Object>> ls = new ArrayList<>();
-        int pageSize =  OkConvertUtils.getInt(param.get("pageSize").toString(),1);
+        int pageSize = Integer.parseInt(param.get("pageSize").toString());
 
         Map<String, Object> obj2 = new HashMap<>();
         obj2.put("name", "张三");
