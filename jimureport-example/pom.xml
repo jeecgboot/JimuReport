@@ -37,7 +37,7 @@
     </repositories>
 
     <properties>
-        <jimureport.version>1.6.2-GA2</jimureport.version>
+        <jimureport.version>1.6.2-GA3</jimureport.version>
         <java.version>1.8</java.version>
         <minio.version>8.0.3</minio.version>
         <!-- DB驱动 -->
