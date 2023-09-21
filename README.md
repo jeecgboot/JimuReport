@@ -1,10 +1,10 @@
 # JimuReport - 积木报表（一款免费Web报表工具）
 
-v1.6.2-GA5 | 2023-09-12
+v1.6.2 | 2023-09-22
 
 
 [![](https://img.shields.io/badge/Author-北京敲敲云科技-orange.svg)](http://jimureport.com)
-[![](https://img.shields.io/badge/version-1.6.2-GA5-brightgreen.svg)](https://github.com/zhangdaiscott/JimuReport)
+[![](https://img.shields.io/badge/version-1.6.2-brightgreen.svg)](https://github.com/zhangdaiscott/JimuReport)
 [![](https://img.shields.io/badge/Blog-官方博客-blue.svg)](https://jeecg.blog.csdn.net)
 [![GitHub stars](https://img.shields.io/github/stars/zhangdaiscott/JimuReport.svg?style=social&label=Stars)](https://github.com/zhangdaiscott/JimuReport)
 [![GitHub forks](https://img.shields.io/github/forks/zhangdaiscott/JimuReport.svg?style=social&label=Fork)](https://github.com/zhangdaiscott/JimuReport)
@@ -45,7 +45,7 @@ v1.6.2-GA5 | 2023-09-12
 <dependency>
   <groupId>org.jeecgframework.jimureport</groupId>
   <artifactId>jimureport-spring-boot-starter</artifactId>
-  <version>1.6.2-GA5</version>
+  <version>1.6.2</version>
 </dependency>
 ``` 
 
