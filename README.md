@@ -65,7 +65,7 @@ v1.6.2 | 2023-09-22
 -----------------------------------
 
 - 官方网站： http://jimureport.com
-- 更多产品 ：  [在线大屏报表设计平台](http://jimureport.com/login)  |  [免费JEECG低代码平台](http://jeecg.com) |  [敲敲云零代码平台](http://qiaoqiaoyun.com)
+- 更多产品 ：  [在线大屏设计平台](http://jimureport.com/login)  |  [免费JEECG低代码平台](http://jeecg.com) |  [敲敲云零代码平台](http://qiaoqiaoyun.com)
 - 官方文档： https://help.jeecg.com/jimureport
 - 视频教程： http://jimureport.com/doc/video
 - QQ交流群： ③596660273、②929646317(已满)、①212391162(已满)
