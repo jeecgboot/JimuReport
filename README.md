@@ -1,10 +1,10 @@
 # JimuReport - 积木报表（开源免费的低代码报表）
 
-v1.6.2 | 2023-09-22
+v1.6.3 | 2023-10-16
 
 
-[![](https://img.shields.io/badge/Author-北京敲敲云科技-orange.svg)](http://jimureport.com)
-[![](https://img.shields.io/badge/version-1.6.2-brightgreen.svg)](https://github.com/zhangdaiscott/JimuReport)
+[![](https://img.shields.io/badge/Author-北京国炬软件-orange.svg)](http://jimureport.com)
+[![](https://img.shields.io/badge/version-1.6.3-brightgreen.svg)](https://github.com/zhangdaiscott/JimuReport)
 [![](https://img.shields.io/badge/Blog-官方博客-blue.svg)](https://jeecg.blog.csdn.net)
 [![GitHub stars](https://img.shields.io/github/stars/zhangdaiscott/JimuReport.svg?style=social&label=Stars)](https://github.com/zhangdaiscott/JimuReport)
 [![GitHub forks](https://img.shields.io/github/forks/zhangdaiscott/JimuReport.svg?style=social&label=Fork)](https://github.com/zhangdaiscott/JimuReport)
@@ -45,7 +45,7 @@ v1.6.2 | 2023-09-22
 <dependency>
   <groupId>org.jeecgframework.jimureport</groupId>
   <artifactId>jimureport-spring-boot-starter</artifactId>
-  <version>1.6.2</version>
+  <version>1.6.3</version>
 </dependency>
 ``` 
 
@@ -65,10 +65,10 @@ v1.6.2 | 2023-09-22
 -----------------------------------
 
 - 官方网站： http://jimureport.com
-- 更多产品 ：  [在线大屏设计平台](http://jimureport.com/login)  |  [免费JEECG低代码平台](http://jeecg.com) |  [敲敲云零代码平台](http://qiaoqiaoyun.com)
 - 官方文档： https://help.jeecg.com/jimureport
 - 视频教程： http://jimureport.com/doc/video
 - QQ交流群： ③596660273、②929646317(已满)、①212391162(已满)
+- 更多产品 ：  [在线大屏设计平台](http://jimureport.com/login)  |  [免费JEECG低代码平台](http://jeecg.com) |  [敲敲云零代码平台](http://qiaoqiaoyun.com)
 
 
 
