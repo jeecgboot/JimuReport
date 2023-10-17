@@ -3,7 +3,6 @@ package com.jeecg.modules.jmreport.config;
 import org.jeecg.modules.jmreport.api.JmReportTokenServiceI;
 import org.springframework.http.HttpHeaders;
 import org.springframework.stereotype.Component;
-
 import javax.servlet.http.HttpServletRequest;
 
 /**
@@ -26,6 +25,26 @@ public class JimuReportTokenService implements JmReportTokenServiceI {
         return "123456";
     }
 
+    /**
+     * 自定义获取租户
+     *
+     * @return
+     */
+    @Override
+    public String getTenantId() {
+//        String headerTenantId = null;
+//        HttpServletRequest request = JimuSpringContextUtils.getHttpServletRequest();
+//        if (request != null) {
+//            headerTenantId = request.getHeader(JmConst.HEADER_TENANT_ID);
+//            if(OkConvertUtils.isEmpty(headerTenantId)){
+//                headerTenantId = request.getParameter(JmConst.TENANT_ID);
+//            }
+//        }
+//        return headerTenantId;
+        return "1";
+    }
+
+    
     /**
      * 通过Token获取登录人用户名
      * @param token
