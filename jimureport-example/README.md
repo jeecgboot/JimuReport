@@ -45,6 +45,8 @@ Docker镜像制作
 		 
 -  第四步：执行命令，生成镜像
 
+>如果使用的是Mac M系列芯片，需要修改docker-compose.yml文件的第一行为：```FROM arm64v8/mysql:8```
+
          docker-compose up -d
 		 
 -  第五步：访问报表
