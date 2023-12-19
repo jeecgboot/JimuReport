@@ -50,19 +50,6 @@ v1.6.6 | 2023-12-11
 </dependency>
 ``` 
 
-
-> SpringBoot3+JDK17 版本（beta版，需要配置[JEECG私服](<https://help.jeecg.com/java/setup/maven.html>)）
-```
-<dependency>
-  <groupId>org.jeecgframework.jimureport</groupId>
-  <artifactId>jimureport-spring-boot3-starter</artifactId>
-  <version>1.6.6</version>
-</dependency>
-``` 
-
-
-
-
 - 按需引入JimuReport依赖（mongo redis 支持包）
 ```
 <dependency>
@@ -74,6 +61,15 @@ v1.6.6 | 2023-12-11
 
 通过 http://jimureport.com/doc/log 查询最新版本号
 
+#### SpringBoot3支持
+> SpringBoot3+JDK17 版本（beta版，需要配置[JEECG私服](<https://help.jeecg.com/java/setup/maven.html>)）
+```
+<dependency>
+  <groupId>org.jeecgframework.jimureport</groupId>
+  <artifactId>jimureport-spring-boot3-starter</artifactId>
+  <version>1.6.6-beta2</version>
+</dependency>
+``` 
 
 开发文档
 -----------------------------------
