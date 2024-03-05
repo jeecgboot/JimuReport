@@ -35,22 +35,18 @@ v1.7.1 | 2024-03-06
 
 快速集成
 -----------------------------------
-- 快速集成文档
-
-    https://help.jeecg.com/jimureport/quick.html
-
-- 引入JimuReport依赖
-
-> SpringBoot2+JDK8 版本
+#### 引入JimuReport依赖
+- springboot2依赖
 ```
 <dependency>
   <groupId>org.jeecgframework.jimureport</groupId>
   <artifactId>jimureport-spring-boot-starter</artifactId>
   <version>1.7.1</version>
 </dependency>
-``` 
+```
+通过 http://jimureport.com/doc/log 查询最新版本号
 
-- 按需引入JimuReport依赖（mongo redis 支持包）
+- 按需引入mongo和redis支持包
 ```
 <dependency>
   <groupId>org.jeecgframework.jimureport</groupId>
@@ -59,26 +55,24 @@ v1.7.1 | 2024-03-06
 </dependency>
 ``` 
 
-通过 http://jimureport.com/doc/log 查询最新版本号
-
-#### SpringBoot3支持
-> SpringBoot3+JDK17 版本（beta版，需要配置[JEECG私服](<https://help.jeecg.com/java/setup/maven.html>)）
+- springboot3依赖
 ```
 <dependency>
   <groupId>org.jeecgframework.jimureport</groupId>
-  <artifactId>jimureport-spring-boot3-starter</artifactId>
+  <artifactId>jimureport-spring-boot3-starter-fastjson2</artifactId>
   <version>1.7.1</version>
 </dependency>
-``` 
+```
 
 开发文档
 -----------------------------------
 
 - 官方网站： http://jimureport.com
+- 快速集成: https://help.jeecg.com/jimureport/quick.html
 - 官方文档： https://help.jeecg.com/jimureport
 - 视频教程： http://jimureport.com/doc/video
 - QQ交流群： ③596660273、②929646317(已满)、①212391162(已满)
-- 更多产品 ：  [在线大屏设计平台](http://jimureport.com/login)  |  [免费JEECG低代码平台](http://jeecg.com) |  [敲敲云零代码平台](http://qiaoqiaoyun.com)
+- 更多产品 ： [免费JEECG低代码平台](http://jeecg.com) |  [在线大屏设计平台](http://jimureport.com/login)
 
 
 
