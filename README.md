@@ -1,10 +1,10 @@
 # JimuReport - 积木报表（开源免费的低代码报表）
 
-v1.7.0 | 2024-02-18
+v1.7.1 | 2024-03-16
 
 
 [![](https://img.shields.io/badge/Author-北京国炬软件-orange.svg)](http://jimureport.com)
-[![](https://img.shields.io/badge/version-1.7.0-brightgreen.svg)](https://github.com/zhangdaiscott/JimuReport)
+[![](https://img.shields.io/badge/version-1.7.1-brightgreen.svg)](https://github.com/zhangdaiscott/JimuReport)
 [![](https://img.shields.io/badge/Blog-官方博客-blue.svg)](https://jeecg.blog.csdn.net)
 [![GitHub stars](https://img.shields.io/github/stars/zhangdaiscott/JimuReport.svg?style=social&label=Stars)](https://github.com/zhangdaiscott/JimuReport)
 [![GitHub forks](https://img.shields.io/github/forks/zhangdaiscott/JimuReport.svg?style=social&label=Fork)](https://github.com/zhangdaiscott/JimuReport)
@@ -46,7 +46,7 @@ v1.7.0 | 2024-02-18
 <dependency>
   <groupId>org.jeecgframework.jimureport</groupId>
   <artifactId>jimureport-spring-boot-starter</artifactId>
-  <version>1.7.0</version>
+  <version>1.7.1</version>
 </dependency>
 ``` 
 
@@ -67,7 +67,7 @@ v1.7.0 | 2024-02-18
 <dependency>
   <groupId>org.jeecgframework.jimureport</groupId>
   <artifactId>jimureport-spring-boot3-starter</artifactId>
-  <version>1.6.6-beta2</version>
+  <version>1.7.1</version>
 </dependency>
 ``` 
 
