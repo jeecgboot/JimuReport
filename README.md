@@ -1,6 +1,6 @@
 # JimuReport - 积木报表（开源免费的低代码报表）
 
-v1.7.1 | 2024-03-16
+v1.7.1 | 2024-03-06
 
 
 [![](https://img.shields.io/badge/Author-北京国炬软件-orange.svg)](http://jimureport.com)
