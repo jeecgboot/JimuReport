@@ -35,7 +35,7 @@ v1.7.1 | 2024-03-06
 
 快速集成
 -----------------------------------
-#### 引入JimuReport依赖
+#### 一、引入JimuReport依赖
 - springboot2依赖
 ```
 <dependency>
@@ -64,17 +64,16 @@ v1.7.1 | 2024-03-06
 </dependency>
 ```
 
+#### 二、初始化SQL及项目配置
+https://help.jeecg.com/jimureport/quick.html
+
 开发文档
 -----------------------------------
 
 - 官方网站： http://jimureport.com
-- 快速集成: https://help.jeecg.com/jimureport/quick.html
 - 官方文档： https://help.jeecg.com/jimureport
 - 视频教程： http://jimureport.com/doc/video
 - QQ交流群： ③596660273、②929646317(已满)、①212391162(已满)
-- 更多产品 ： [免费JEECG低代码平台](http://jeecg.com) |  [在线大屏设计平台](http://jimureport.com/login)
-
-
 
 
 产生背景
