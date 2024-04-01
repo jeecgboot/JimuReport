@@ -60,7 +60,7 @@ v1.7.4 | 2024-04-01
 <dependency>
   <groupId>org.jeecgframework.jimureport</groupId>
   <artifactId>jimureport-spring-boot3-starter-fastjson2</artifactId>
-  <version>1.7.2-beta</version>
+  <version>1.7.3</version>
 </dependency>
 ```
 
