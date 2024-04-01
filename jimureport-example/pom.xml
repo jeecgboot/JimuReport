@@ -34,10 +34,18 @@
                 <enabled>false</enabled>
             </snapshots>
         </repository>
+        <repository>
+            <id>jeecg-snapshots</id>
+            <name>jeecg snapshots Repository</name>
+            <url>https://maven.jeecg.org/nexus/content/repositories/snapshots/</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
     </repositories>
 
     <properties>
-        <jimureport.version>1.7.2-beta</jimureport.version>
+        <jimureport.version>1.7.4-SNAPSHOT</jimureport.version>
         <java.version>1.8</java.version>
         <minio.version>8.0.3</minio.version>
         <!-- DB驱动 -->
