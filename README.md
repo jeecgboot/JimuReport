@@ -41,7 +41,7 @@ v1.7.5 | 2024-06-11
 <dependency>
   <groupId>org.jeecgframework.jimureport</groupId>
   <artifactId>jimureport-spring-boot-starter</artifactId>
-  <version>1.7.4</version>
+  <version>1.7.5</version>
 </dependency>
 ```
 通过 http://jimureport.com/doc/log 查询最新版本号
