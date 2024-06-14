@@ -37,13 +37,26 @@ v1.7.52 | 2024-06-11
 -----------------------------------
 #### 一、引入JimuReport依赖
 - springboot2依赖
+>注意：如果你的项目中没有jsqlparser和druid依赖，则去掉排除`exclusions`
+
 ```
 <dependency>
-  <groupId>org.jeecgframework.jimureport</groupId>
-  <artifactId>jimureport-spring-boot-starter</artifactId>
-  <version>1.7.52</version>
+   <groupId>org.jeecgframework.jimureport</groupId>
+   <artifactId>jimureport-spring-boot-starter</artifactId>
+   <version>1.7.52</version>
+   <exclusions>
+      <exclusion>
+         <artifactId>druid</artifactId>
+         <groupId>com.alibaba</groupId>
+      </exclusion>
+      <exclusion>
+         <artifactId>jsqlparser</artifactId>
+         <groupId>com.github.jsqlparser</groupId>
+      </exclusion>
+   </exclusions>
 </dependency>
 ```
+
 通过 http://jimureport.com/doc/log 查询最新版本号
 
 - 按需引入mongo和redis支持包
