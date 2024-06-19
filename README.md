@@ -37,7 +37,7 @@ v1.7.6 | 2024-06-19
 -----------------------------------
 #### 一、引入JimuReport依赖
 - springboot2依赖
->注意：如果你的项目中没有jsqlparser和druid依赖，则去掉排除`exclusions`
+>注意：如果你的项目中没有jsqlparser依赖则不要排除，删除`exclusions`标签。
 
 ```
 <dependency>
