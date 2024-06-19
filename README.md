@@ -1,10 +1,10 @@
 # JimuReport - 积木报表（开源免费的低代码报表）
 
-v1.7.52 | 2024-06-11
+v1.7.6 | 2024-06-19
 
 
 [![](https://img.shields.io/badge/Author-北京国炬软件-orange.svg)](http://jimureport.com)
-[![](https://img.shields.io/badge/version-1.7.52-brightgreen.svg)](https://github.com/zhangdaiscott/JimuReport)
+[![](https://img.shields.io/badge/version-1.7.6-brightgreen.svg)](https://github.com/zhangdaiscott/JimuReport)
 [![](https://img.shields.io/badge/Blog-官方博客-blue.svg)](https://jeecg.blog.csdn.net)
 [![GitHub stars](https://img.shields.io/github/stars/zhangdaiscott/JimuReport.svg?style=social&label=Stars)](https://github.com/zhangdaiscott/JimuReport)
 [![GitHub forks](https://img.shields.io/github/forks/zhangdaiscott/JimuReport.svg?style=social&label=Fork)](https://github.com/zhangdaiscott/JimuReport)
@@ -43,12 +43,8 @@ v1.7.52 | 2024-06-11
 <dependency>
    <groupId>org.jeecgframework.jimureport</groupId>
    <artifactId>jimureport-spring-boot-starter</artifactId>
-   <version>1.7.52</version>
+   <version>1.7.6</version>
    <exclusions>
-      <exclusion>
-         <artifactId>druid</artifactId>
-         <groupId>com.alibaba</groupId>
-      </exclusion>
       <exclusion>
          <artifactId>jsqlparser</artifactId>
          <groupId>com.github.jsqlparser</groupId>
