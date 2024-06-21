@@ -70,6 +70,12 @@ v1.7.6 | 2024-06-19
   <groupId>org.jeecgframework.jimureport</groupId>
   <artifactId>jimureport-spring-boot3-starter-fastjson2</artifactId>
   <version>1.7.32</version>
+  <exclusions>
+      <exclusion>
+         <artifactId>jsqlparser</artifactId>
+         <groupId>com.github.jsqlparser</groupId>
+      </exclusion>
+   </exclusions>
 </dependency>
 ```
 
