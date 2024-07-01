@@ -88,7 +88,7 @@ https://help.jeecg.com/jimureport/quick.html
 - 官方网站： http://jimureport.com
 - 官方文档： https://help.jeecg.com/jimureport
 - 视频教程： http://jimureport.com/doc/video
-- QQ交流群： ③596660273、②929646317(已满)、①212391162(已满)
+- QQ交流群： ③596660273、其他群(满)
 
 
 产生背景
