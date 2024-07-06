@@ -63,13 +63,7 @@ v1.7.7 | 2024-07-08
 <dependency>
   <groupId>org.jeecgframework.jimureport</groupId>
   <artifactId>jimureport-spring-boot3-starter-fastjson2</artifactId>
-  <version>1.7.32</version>
-  <exclusions>
-      <exclusion>
-         <artifactId>jsqlparser</artifactId>
-         <groupId>com.github.jsqlparser</groupId>
-      </exclusion>
-   </exclusions>
+  <version>1.7.7</version>
 </dependency>
 ```
 
