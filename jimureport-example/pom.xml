@@ -45,11 +45,13 @@
     </repositories>
 
     <properties>
-        <jimureport.version>1.7.6</jimureport.version>
+        <jimureport.version>1.7.7</jimureport.version>
         <java.version>1.8</java.version>
         <minio.version>8.0.3</minio.version>
         <!-- DB驱动 -->
         <mysql-connector-java.version>8.0.27</mysql-connector-java.version>
+        <!-- SQL解析引擎 -->
+        <jsqlparser.version>4.6</jsqlparser.version>
     </properties>
 
 
@@ -71,6 +73,12 @@
             <groupId>org.jeecgframework.jimureport</groupId>
             <artifactId>jimureport-nosql-starter</artifactId>
             <version>1.6.0</version>
+        </dependency>
+        <!-- jsqlparser -->
+        <dependency>
+            <groupId>com.github.jsqlparser</groupId>
+            <artifactId>jsqlparser</artifactId>
+            <version>${jsqlparser.version}</version>
         </dependency>
 
 
