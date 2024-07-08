@@ -7,9 +7,24 @@ spring:
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
+  #配置freemarker
+  freemarker:
+    # 设置模板后缀名
+    suffix: .ftl
+    # 设置文档类型
+    content-type: text/html
+    # 设置页面编码格式
+    charset: UTF-8
+    # 设置页面缓存
+    cache: false
+    prefer-file-system-access: false
+    # 设置ftl文件路径
+    template-loader-path:
+      - classpath:/templates
+    template_update_delay: 0
 #持久层框架
 minidao:
-  base-package: org.jeecg.modules.jmreport.*
+  base-package: org.jeecg.modules.jmreport.*,org.jeecg.modules.drag.*
 jeecg:
   # local|minio|alioss
   uploadType: local

@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
  * 2.自定义获取登录用户
  */
 @Component
-public class JimuReportTokenService implements JmReportTokenServiceI {
+public class JimuReportTokenServiceImpl implements JmReportTokenServiceI {
 
     /**
      * 通过请求获取Token
@@ -74,7 +74,7 @@ public class JimuReportTokenService implements JmReportTokenServiceI {
      */
     @Override
     public Boolean verifyToken(String token) {
-        System.out.println("---------verify-----Token---------------");
+        //System.out.println("---------verify-----Token---------------");
         //return TokenUtils.verifyToken(token, sysBaseAPI, redisUtil);
         return true;
     }
