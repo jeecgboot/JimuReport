@@ -51,4 +51,5 @@ Docker镜像制作
 		 
 -  第五步：访问报表
 
-        http://localhost:8085/jmreport/list
+      报表工作台： http://localhost:8085/jmreport/list
+      仪表盘工作台： http://localhost:8085/drag/list
