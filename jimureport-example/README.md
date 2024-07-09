@@ -22,7 +22,8 @@
            
 -  第四步： 访问项目
 
-           http://localhost:8085/jmreport/list
+      报表工作台： http://localhost:8085/jmreport/list
+      仪表盘工作台： http://localhost:8085/drag/list
            
 
 
