@@ -157,7 +157,7 @@ https://help.jeecg.com/jimureport/quick.html
 为保障您的合法权益，需购买[商业授权](http://jimureport.com/vip)
 
 
-报表设计效果
+报表工作台
 -----------------------------------
 
 - 数据可视化（专业一流，数据可视化,解决各类报表难题）
@@ -184,7 +184,7 @@ https://help.jeecg.com/jimureport/quick.html
 ![](https://oscimg.oschina.net/oscnet/up-22096123c5b6a10a801967c33cc33a7af11.png)
 
 
-仪表盘设计器
+仪表盘工作台
 -----------------------------------
 
 
