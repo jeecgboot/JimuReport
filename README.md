@@ -26,12 +26,14 @@ v1.7.9 | 2024-07-09
 
 
 
-
-免安装版和Docker版本
+快速启动版本
 -----------------------------------
 
 - [绿色免安装版本](https://pan.baidu.com/s/1z9VmMz4HCc7GMVbzugetLQ?pwd=xafr)
 - [Docker快速运行](https://help.jeecg.com/jimureport/docker.html)
+- [jimureport-example源码运行](https://github.com/jeecgboot/JimuReport/tree/master/jimureport-example)
+
+
 
 集成版
 -----------------------------------
