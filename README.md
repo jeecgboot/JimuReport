@@ -1,43 +1,39 @@
-# JimuReport - 积木报表（开源免费的低代码报表）
+# JimuReport积木报表（开源免费报表工具）
 
 v1.7.9 | 2024-07-09
 
 
-[![](https://img.shields.io/badge/Author-北京国炬软件-orange.svg)](http://jimureport.com)
-[![](https://img.shields.io/badge/version-1.7.9-brightgreen.svg)](https://github.com/zhangdaiscott/JimuReport)
-[![](https://img.shields.io/badge/Blog-官方博客-blue.svg)](https://jeecg.blog.csdn.net)
-[![GitHub stars](https://img.shields.io/github/stars/zhangdaiscott/JimuReport.svg?style=social&label=Stars)](https://github.com/zhangdaiscott/JimuReport)
-[![GitHub forks](https://img.shields.io/github/forks/zhangdaiscott/JimuReport.svg?style=social&label=Fork)](https://github.com/zhangdaiscott/JimuReport)
+[![](https://img.shields.io/badge/Author-北京国炬软件-orange.svg)](http://guojusoft.com)
+[![](https://img.shields.io/badge/version-1.7.9-brightgreen.svg)](https://github.com/jeecgboot/JimuReport)
+[![](https://img.shields.io/badge/Blog-官网-blue.svg)](http://jimureport.com)
+[![GitHub stars](https://img.shields.io/github/stars/zhangdaiscott/JimuReport.svg?style=social&label=Stars)](https://github.com/jeecgboot/JimuReport)
+[![GitHub forks](https://img.shields.io/github/forks/zhangdaiscott/JimuReport.svg?style=social&label=Fork)](https://github.com/jeecgboot/JimuReport)
 
 
- 一款免费的数据可视化报表，含报表和大屏设计，像搭建积木一样在线设计报表！功能涵盖，数据报表、打印设计、图表报表、大屏设计等！
+ 一款免费的数据可视化报表，含报表、仪表盘和大屏设计，像搭建积木一样在线设计报表！功能涵盖，数据报表、打印设计、图表报表、大屏设计等！
 
 - Web 版报表设计器，类似于excel操作风格，通过拖拽完成报表设计。
 - 秉承“简单、易用、专业”的产品理念，极大的降低报表开发难度、缩短开发周期、节省成本、解决各类报表难题。
 - 领先的企业级Web报表软件，采用纯Web在线技术，专注于解决企业报表快速制作难题。
 
 ```
-专注于开源，打造“专业 易用 智能 低代码”的数据可视化工具
-开源协议：`功能永久免费、可以商用、代码不开放（大屏设计暂时不提供离线版本）`
+专注于开源，打造“专业 易用 智能 低代码”的数据可视化报表
+开源协议：`功能永久免费、可以商用、代码不开放（大屏不提供离线版,在线免费使用）`
 ```
 
 
 
 
-快速体验： [http://jimureport.com](http://jimureport.com "jimureport.com")
+
+快速体验(含大屏)： [http://jimureport.com](http://jimureport.com "jimureport.com")
 
 
-反馈问题
------------------------------------
-
-> 发现bug 请在github上[发issue](https://github.com/jeecgboot/JimuReport/issues/new)
 
 
 快速集成
 -----------------------------------
 #### 一、引入JimuReport依赖
 - springboot2依赖
->注意：如果你的项目中没有jsqlparser依赖则不要排除，删除`exclusions`标签。
 
 ```
 <dependency>
@@ -49,15 +45,6 @@ v1.7.9 | 2024-07-09
 
 通过 http://jimureport.com/doc/log 查询最新版本号
 
-- 按需引入mongo和redis支持包
-```
-<dependency>
-  <groupId>org.jeecgframework.jimureport</groupId>
-  <artifactId>jimureport-nosql-starter</artifactId>
-  <version>1.6.0</version>
-</dependency>
-``` 
-
 - springboot3依赖
 ```
 <dependency>
@@ -67,16 +54,36 @@ v1.7.9 | 2024-07-09
 </dependency>
 ```
 
+
+
+- 按需引入mongo和redis支持包
+```
+<dependency>
+  <groupId>org.jeecgframework.jimureport</groupId>
+  <artifactId>jimureport-nosql-starter</artifactId>
+  <version>1.6.0</version>
+</dependency>
+``` 
+
+
 #### 二、初始化SQL及项目配置
 https://help.jeecg.com/jimureport/quick.html
+
+
 
 开发文档
 -----------------------------------
 
+- QQ交流群： ③596660273、其他群(满)
 - 官方网站： http://jimureport.com
 - 官方文档： https://help.jeecg.com/jimureport
 - 视频教程： http://jimureport.com/doc/video
-- QQ交流群： ③596660273、其他群(满)
+
+
+反馈问题
+-----------------------------------
+
+> 发现bug 请在github上[发issue](https://github.com/jeecgboot/JimuReport/issues/new)
 
 
 产生背景
@@ -176,6 +183,31 @@ https://help.jeecg.com/jimureport/quick.html
 ![](https://oscimg.oschina.net/oscnet/up-3eda428ef182cb64a1a8e132e4bfeb87718.png)
 ![](https://oscimg.oschina.net/oscnet/up-22096123c5b6a10a801967c33cc33a7af11.png)
 
+
+仪表盘设计器
+-----------------------------------
+
+
+![](https://oscimg.oschina.net/oscnet/up-9c9d41288c31398d76b390bdd400f13a582.png)
+
+
+![](https://oscimg.oschina.net/oscnet/up-8ebff9357b6a22161f668586af28be31488.png)
+
+
+![](https://oscimg.oschina.net/oscnet/up-fad98d42b2cf92f92a903c9cff7579f18ec.png)
+
+
+![](https://oscimg.oschina.net/oscnet/up-4be5b44bf771d8c55aba2adf9ae074eac18.png)
+
+
+![](https://oscimg.oschina.net/oscnet/up-57676eb5dcf4726933e0f6e429a4b2e31a9.png)
+
+
+![](https://oscimg.oschina.net/oscnet/up-7938331a342ba363a9691d76a53f34298fc.png)
+
+
+
+
 大屏设计效果
 -----------------------------------
 
@@ -204,31 +236,6 @@ https://help.jeecg.com/jimureport/quick.html
 
 
 ![](https://oscimg.oschina.net/oscnet/up-3b8d034341d0190156d63484ce09a863c9c.png)
-
-
-
-
-仪表盘设计器
------------------------------------
-
-
-![](https://oscimg.oschina.net/oscnet/up-9c9d41288c31398d76b390bdd400f13a582.png)
-
-
-![](https://oscimg.oschina.net/oscnet/up-8ebff9357b6a22161f668586af28be31488.png)
-
-
-![](https://oscimg.oschina.net/oscnet/up-fad98d42b2cf92f92a903c9cff7579f18ec.png)
-
-
-![](https://oscimg.oschina.net/oscnet/up-4be5b44bf771d8c55aba2adf9ae074eac18.png)
-
-
-![](https://oscimg.oschina.net/oscnet/up-57676eb5dcf4726933e0f6e429a4b2e31a9.png)
-
-
-![](https://oscimg.oschina.net/oscnet/up-7938331a342ba363a9691d76a53f34298fc.png)
-
 
 
 
