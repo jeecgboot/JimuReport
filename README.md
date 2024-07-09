@@ -3,9 +3,9 @@
 v1.7.9 | 2024-07-09
 
 
-[![](https://img.shields.io/badge/Author-北京国炬软件-orange.svg)](http://guojusoft.com)
+[![](https://img.shields.io/badge/Author-北京敲敲云科技-orange.svg)](https://qiaoqiaoyun.com/aboutUs)
 [![](https://img.shields.io/badge/version-1.7.9-brightgreen.svg)](https://github.com/jeecgboot/JimuReport)
-[![](https://img.shields.io/badge/Blog-官网-blue.svg)](http://jimureport.com)
+[![](https://img.shields.io/badge/Blog-积木报表官网-blue.svg)](http://jimureport.com)
 [![GitHub stars](https://img.shields.io/github/stars/zhangdaiscott/JimuReport.svg?style=social&label=Stars)](https://github.com/jeecgboot/JimuReport)
 [![GitHub forks](https://img.shields.io/github/forks/zhangdaiscott/JimuReport.svg?style=social&label=Fork)](https://github.com/jeecgboot/JimuReport)
 
@@ -15,7 +15,7 @@ v1.7.9 | 2024-07-09
 - Web 版报表设计器，类似于excel操作风格，通过拖拽完成报表设计。
 - 秉承“简单、易用、专业”的产品理念，极大的降低报表开发难度、缩短开发周期、节省成本、解决各类报表难题。
 - 领先的企业级Web报表软件，采用纯Web在线技术，专注于解决企业报表快速制作难题。
-
+- 在线体验(报表和大屏)： [http://jimureport.com](http://jimureport.com "jimureport.com")
 ```
 专注于开源，打造“专业 易用 智能 低代码”的数据可视化报表
 开源协议：`功能永久免费、可以商用、代码不开放（大屏不提供离线版,在线免费使用）`
@@ -25,14 +25,19 @@ v1.7.9 | 2024-07-09
 
 
 
-快速体验(含大屏)： [http://jimureport.com](http://jimureport.com "jimureport.com")
 
 
-
-
-快速集成
+免安装版和Docker版本
 -----------------------------------
-#### 一、引入JimuReport依赖
+
+- [绿色免安装版本](https://pan.baidu.com/s/1z9VmMz4HCc7GMVbzugetLQ?pwd=xafr)
+- [Docker快速运行](https://help.jeecg.com/jimureport/docker.html)
+
+集成版
+-----------------------------------
+> 支持springboot架构，如果你的项目是springboot2或springboot3，可以从下面选择适合版本。
+
+##### 第一步：引入JimuReport依赖
 - springboot2依赖
 
 ```
@@ -66,8 +71,9 @@ v1.7.9 | 2024-07-09
 ``` 
 
 
-#### 二、初始化SQL及项目配置
-https://help.jeecg.com/jimureport/quick.html
+##### 第二步：初始化SQL和项目配置
+
+ - https://help.jeecg.com/jimureport/quick.html
 
 
 
@@ -78,12 +84,7 @@ https://help.jeecg.com/jimureport/quick.html
 - 官方网站： http://jimureport.com
 - 官方文档： https://help.jeecg.com/jimureport
 - 视频教程： http://jimureport.com/doc/video
-
-
-反馈问题
------------------------------------
-
-> 发现bug 请在github上[发issue](https://github.com/jeecgboot/JimuReport/issues/new)
+- 技术支持： 发现bug，[请在github上发issue](https://github.com/jeecgboot/JimuReport/issues/new)
 
 
 产生背景
@@ -105,20 +106,6 @@ https://help.jeecg.com/jimureport/quick.html
 - 支持打印设计（支持套打、背景打印等）可设置打印边距、方向、页眉页脚等参数 一键快速打印 同时可实现发票套打，不动产证等精准、无缝打印
 - 大屏设计器支持几十种图表样式，可自由拼接、组合，设计炫酷大屏
 - 可设计各种类型的单据、大屏，如出入库单、销售单、财务报表、合同、监控大屏、旅游数据大屏等
-
-
-
-	
-
-
-
-
-免安装版和docker版本
------------------------------------
-
-- http://jimureport.com/download
-
-
 
 
 
