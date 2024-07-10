@@ -29,18 +29,18 @@ v1.7.9 | 2024-07-09
 快速启动版本
 -----------------------------------
 
-- [绿色免安装版本](https://pan.baidu.com/s/1z9VmMz4HCc7GMVbzugetLQ?pwd=xafr)
+- [集成版源码运行](https://github.com/jeecgboot/JimuReport/tree/master/jimureport-example)
 - [Docker快速运行](https://help.jeecg.com/jimureport/docker.html)
-- [jimureport-example源码运行](https://github.com/jeecgboot/JimuReport/tree/master/jimureport-example)
+- [绿色免安装版本](https://pan.baidu.com/s/1z9VmMz4HCc7GMVbzugetLQ?pwd=xafr)
 
 
 
-集成版本
+MAVEN依赖
 -----------------------------------
-> 支持springboot架构，如果你的项目是springboot2或springboot3，可以从下面选择适合版本。
+> 快速集成到自己项目中，支持SpringBoot脚手架项目。如果你的项目是springboot2或springboot3，可以从下面选择适合版本。
 
 ##### 第一步：引入JimuReport依赖
-- springboot2依赖
+- springboot2版依赖
 
 ```
 <dependency>
@@ -52,7 +52,7 @@ v1.7.9 | 2024-07-09
 
 通过 http://jimureport.com/doc/log 查询最新版本号
 
-- springboot3依赖
+- springboot3版依赖
 ```
 <dependency>
   <groupId>org.jeecgframework.jimureport</groupId>
