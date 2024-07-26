@@ -164,23 +164,19 @@ MAVEN依赖
 仪表盘工作台
 -----------------------------------
 
+![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/darg20240726105556.png)
 
-![](https://oscimg.oschina.net/oscnet/up-9c9d41288c31398d76b390bdd400f13a582.png)
+![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135626.png)
 
+![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135619.png)
 
-![](https://oscimg.oschina.net/oscnet/up-8ebff9357b6a22161f668586af28be31488.png)
+![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135630.png)
 
+![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240726105547.png)
 
 ![](https://oscimg.oschina.net/oscnet/up-fad98d42b2cf92f92a903c9cff7579f18ec.png)
 
 
-![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135626.png)
-
-
-![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135619.png)
-
-
-![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135630.png)
 
 
 
