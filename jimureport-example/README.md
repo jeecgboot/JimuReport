@@ -20,7 +20,7 @@
 
            org.jeecg.modules.JimuReportApplication
            
--  第四步： 访问项目
+-  第四步： 访问项目（默认账号：admin 密码：123456）
 
       报表工作台： http://localhost:8085/jmreport/list
       
@@ -51,7 +51,7 @@ Docker镜像制作
 
          docker-compose up -d
 		 
--  第五步：访问报表
+-  第五步：访问报表（默认账号：admin 密码：123456）
 
       报表工作台： http://localhost:8085/jmreport/list
       

@@ -12,7 +12,7 @@
     <name>jimureport-example</name>
     <groupId>org.jeecg</groupId>
     <artifactId>jimureport-example</artifactId>
-    <version>1.7</version>
+    <version>1.8</version>
 
     <url>http://www.jimureport.com</url>
     <description>积木报表集成示例</description>
@@ -45,7 +45,7 @@
     </repositories>
 
     <properties>
-        <jimureport.version>1.7.9</jimureport.version>
+        <jimureport.version>1.8.0</jimureport.version>
         <java.version>1.8</java.version>
         <minio.version>8.0.3</minio.version>
         <!-- DB驱动 -->
@@ -73,6 +73,12 @@
             <groupId>org.jeecgframework.jimureport</groupId>
             <artifactId>jimureport-dashboard-spring-boot-starter</artifactId>
             <version>1.8.0-beta</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.jeecgframework.jimureport</groupId>
+                    <artifactId>jimureport-spring-boot-starter</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <!-- mogodb和redis支持 -->
         <dependency>
@@ -98,6 +104,12 @@
             <artifactId>spring-boot-starter-freemarker</artifactId>
         </dependency>
 
+        <!--spring security-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+        
         <!-- minio oss-->
         <dependency>
             <groupId>io.minio</groupId>

@@ -7,6 +7,10 @@ spring:
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
+  security:
+    user:
+      name: "admin"
+      password: "123456"
   #配置freemarker
   freemarker:
     # 设置模板后缀名
