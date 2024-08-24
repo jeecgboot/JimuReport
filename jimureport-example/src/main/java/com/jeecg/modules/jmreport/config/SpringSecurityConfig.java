@@ -22,6 +22,29 @@ public class SpringSecurityConfig {
         http.csrf().disable()
                 .authorizeRequests()
                 .antMatchers("/login/**").permitAll()
+                // 放过静态资源
+                .antMatchers("/jmreport/**/cdn/**",
+                        "/jmreport/desreport_/**/*.js",
+                        "/jmreport/desreport_/**/*.css",
+                        "/jmreport/desreport_/**/*.png").permitAll()
+                // 不需要登录的接口
+                .antMatchers("/jmreport/excelQueryByTemplate",
+                        "/jmreport/img/**",
+                        "/jmreport/download/image",
+                        "/jmreport/verificationToken",
+                        "/jmreport/link/queryByIds",
+                        "/jmreport/test/getUserMsg",
+                        "/jmreport/test/getOrder",
+                        "/jmreport/auto/export/download/**").permitAll()
+                // 分享页面
+                .antMatchers("/jmreport/shareView/**",
+                        "/jmreport/checkParam/**",
+                        "/jmreport/share/verification",
+                        "/jmreport/getQueryInfo",
+                        "/jmreport/show",
+                        "/jmreport/addViewCount/**").permitAll()
+                // view页面
+                .antMatchers("/jmreport/view/**").access("@viewPageCustomAccess.check(request,authentication)")
                 .anyRequest().authenticated()
                 .and()
                 .formLogin()
