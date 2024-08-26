@@ -8,6 +8,9 @@ spring:
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
   security:
+    #放开预览页面不需要登录
+    open-view-page: true
+    #登录账号和密码
     user:
       name: "admin"
       password: "123456"
