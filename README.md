@@ -62,6 +62,16 @@ MAVEN依赖
 </dependency>
 ```
 
+- 仪表盘设计器（只支持springboot2）
+
+
+```
+ <dependency>
+   <groupId>org.jeecgframework.jimureport</groupId>
+   <artifactId>jimureport-dashboard-spring-boot-starter</artifactId>
+   <version>1.8.1-beta</version>
+ </dependency>
+```
 
 
 - 按需引入mongo和redis支持包
