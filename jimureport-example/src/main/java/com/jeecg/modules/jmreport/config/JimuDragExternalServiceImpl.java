@@ -1,5 +1,6 @@
 package com.jeecg.modules.jmreport.config;
 
+import com.alibaba.fastjson.JSONObject;
 import lombok.extern.slf4j.Slf4j;
 import org.jeecg.modules.drag.service.IOnlDragExternalService;
 import org.jeecg.modules.drag.vo.DragDictModel;
@@ -27,7 +28,7 @@ public class JimuDragExternalServiceImpl implements IOnlDragExternalService {
      * @return key = dictCode ； value=对应的字典项
      */
     @Override
-    public Map<String, List<DragDictModel>> getManyDictItems(List<String> codeList) {
+    public Map<String, List<DragDictModel>> getManyDictItems(List<String> codeList, List<JSONObject> tableDictList) {
         Map<String, List<DragDictModel>> manyDragDictItems  = new HashMap<>();
 
         return manyDragDictItems;
