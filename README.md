@@ -34,7 +34,7 @@ v1.8.1 | 2024-09-10
 - [Docker快速运行](https://help.jeecg.com/jimureport/docker.html)
 - [绿色免安装版本](https://pan.baidu.com/s/1z9VmMz4HCc7GMVbzugetLQ?pwd=xafr)
 
-
+> 默认账号密码：admin/123456
 
 MAVEN依赖
 -----------------------------------
