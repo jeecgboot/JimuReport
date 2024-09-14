@@ -26,10 +26,17 @@ v1.8.1 | 2024-09-10
 
 
 
+技术文档
+-----------------------------------
+
+- 官方网站： http://jimureport.com
+- 在线体验： http://jimureport.com/login
+- 快速入门： [开发文档](https://help.jeecg.com/jimureport) | [视频教程](http://jimureport.com/doc/video)
+- 技术支持： 发现bug，[请在github上发issue](https://github.com/jeecgboot/JimuReport/issues/new)
+- QQ交流群： ③596660273、①212391162(满)、②929646317(满)
 
 
-
-快速启动版本
+绿色免安装版本
 -----------------------------------
 
 - [集成版源码运行](https://github.com/jeecgboot/JimuReport/tree/master/jimureport-example)
@@ -38,14 +45,14 @@ v1.8.1 | 2024-09-10
 
 > 默认账号密码：admin/123456
 
-MAVEN依赖
+
+集成MAVEN依赖版本
 -----------------------------------
 > 快速集成到自己项目中，支持SpringBoot脚手架项目。如果你的项目是springboot2或springboot3，可以从下面选择适合版本。
 
 #### 第一步：引入JimuReport依赖
 
 ##### 一、积木报表依赖
-通过 http://jimureport.com/doc/log 查询最新版本号
 
 - springboot2版依赖
 ```
@@ -65,18 +72,8 @@ MAVEN依赖
 </dependency>
 ```
 
-- 按需引入mongo和redis支持包
-```
-<dependency>
-  <groupId>org.jeecgframework.jimureport</groupId>
-  <artifactId>jimureport-nosql-starter</artifactId>
-  <version>1.6.0</version>
-</dependency>
-``` 
-
 ##### 二、积木仪表盘依赖
 - 仪表盘设计器（只支持springboot2）
-
 
 ```
  <dependency>
@@ -87,23 +84,10 @@ MAVEN依赖
 ```
 
 
-
-
-
-#### 第二步：初始化SQL和项目配置
+#### 第二步：初始化SQL和详细必须配置
 
  - https://help.jeecg.com/jimureport/quick.html
 
-
-
-开发文档
------------------------------------
-
-- QQ交流群： ③596660273、①212391162(满)、②929646317(满)
-- 官方网站： http://jimureport.com
-- 官方文档： https://help.jeecg.com/jimureport
-- 视频教程： http://jimureport.com/doc/video
-- 技术支持： 发现bug，[请在github上发issue](https://github.com/jeecgboot/JimuReport/issues/new)
 
 
 产生背景
