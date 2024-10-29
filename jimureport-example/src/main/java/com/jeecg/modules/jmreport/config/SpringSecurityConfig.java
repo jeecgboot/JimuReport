@@ -4,7 +4,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.web.SecurityFilterChain;
+import org.springframework.security.web.authentication.www.BasicAuthenticationFilter;
 
 /**
  * spring security 配置
@@ -29,15 +31,19 @@ public class SpringSecurityConfig {
                         "/jmreport/desreport_/**/*.png").permitAll()
                 // 不需要登录的接口
                 .antMatchers("/jmreport/excelQueryByTemplate",
+                        "/jmreport/query/report/folder/template",
                         "/jmreport/img/**",
                         "/jmreport/download/image",
                         "/jmreport/verificationToken",
                         "/jmreport/link/queryByIds",
                         "/jmreport/test/getUserMsg",
                         "/jmreport/test/getOrder",
+                        "/jimureport/test/**",
                         "/jmreport/auto/export/download/**").permitAll()
                 // 分享页面
                 .antMatchers("/jmreport/shareView/**",
+                        "/jmreport/exportPdfStream",
+                        "/jmreport/exportAllExcelStream",
                         "/jmreport/checkParam/**",
                         "/jmreport/share/verification",
                         "/jmreport/getQueryInfo",
@@ -52,9 +58,14 @@ public class SpringSecurityConfig {
                 .loginProcessingUrl("/login")
                 .successHandler(new CustomLoginSuccessHandler())
                 .permitAll().and()
+                .addFilterBefore(new ApiSecurityConfigFilter(), BasicAuthenticationFilter.class)
                 .logout()
                 .invalidateHttpSession(true)
                 .clearAuthentication(true).permitAll();
+        // 开放iframe访问限制
+        http.headers().frameOptions().disable();
+        http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.ALWAYS);
+        http.rememberMe().useSecureCookie(true);
 
         return http.build();
     }
