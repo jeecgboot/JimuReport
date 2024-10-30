@@ -54,7 +54,7 @@ v1.9.0 | 2024-11-05
 
 ##### 一、积木报表依赖
 
-- springboot2版依赖
+> springboot2版依赖
 ```
 <dependency>
    <groupId>org.jeecgframework.jimureport</groupId>
@@ -63,23 +63,15 @@ v1.9.0 | 2024-11-05
 </dependency>
 ```
 
-- springboot3版依赖
-```
-<dependency>
-  <groupId>org.jeecgframework.jimureport</groupId>
-  <artifactId>jimureport-spring-boot3-starter-fastjson2</artifactId>
-  <version>1.8.1</version>
-</dependency>
-```
 
-##### 二、积木仪表盘依赖
-- 仪表盘设计器（只支持springboot2）
+##### 二、积木仪表盘大屏依赖
+> springboot2版依赖
 
 ```
  <dependency>
    <groupId>org.jeecgframework.jimureport</groupId>
    <artifactId>jimureport-dashboard-spring-boot-starter</artifactId>
-   <version>1.8.1-beta</version>
+   <version>1.9.0</version>
  </dependency>
 ```
 
