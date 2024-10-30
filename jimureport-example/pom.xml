@@ -68,17 +68,11 @@
             <artifactId>jimureport-spring-boot-starter</artifactId>
             <version>${jimureport.version}</version>
         </dependency>
-        <!-- 积木仪表盘 -->
+        <!-- 积木仪表盘大屏 -->
         <dependency>
             <groupId>org.jeecgframework.jimureport</groupId>
             <artifactId>jimureport-dashboard-spring-boot-starter</artifactId>
-            <version>1.8.1-beta</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.jeecgframework.jimureport</groupId>
-                    <artifactId>jimureport-spring-boot-starter</artifactId>
-                </exclusion>
-            </exclusions>
+            <version>${jimureport.version}</version>
         </dependency>
         <!-- mogodb和redis支持 -->
         <dependency>

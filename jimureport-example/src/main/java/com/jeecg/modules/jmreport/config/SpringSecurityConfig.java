@@ -28,6 +28,7 @@ public class SpringSecurityConfig {
                 .antMatchers("/jmreport/**/cdn/**",
                         "/jmreport/desreport_/**/*.js",
                         "/jmreport/desreport_/**/*.css",
+                        "/jmreport/desreport_/**/*.ico",
                         "/jmreport/desreport_/**/*.png").permitAll()
                 // 不需要登录的接口
                 .antMatchers("/jmreport/excelQueryByTemplate",
