@@ -1,6 +1,6 @@
 # JimuReport积木报表(免费报表工具)
 
-v1.9.0 | 2024-11-05
+v1.9.0 | 2024-11-04
 
 
 [![](https://img.shields.io/badge/Author-北京敲敲云科技-orange.svg)](https://qiaoqiaoyun.com/aboutUs)
