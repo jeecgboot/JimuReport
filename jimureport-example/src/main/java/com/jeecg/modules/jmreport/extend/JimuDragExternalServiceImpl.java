@@ -1,4 +1,4 @@
-package com.jeecg.modules.jmreport.config;
+package com.jeecg.modules.jmreport.extend;
 
 import com.alibaba.fastjson.JSONObject;
 import lombok.extern.slf4j.Slf4j;

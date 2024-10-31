@@ -1,4 +1,4 @@
-package com.jeecg.modules.jmreport.config;
+package com.jeecg.modules.jmreport.extend;
 
 import org.jeecg.modules.jmreport.api.JmReportTokenServiceI;
 import org.springframework.http.HttpHeaders;
