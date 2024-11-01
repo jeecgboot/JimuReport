@@ -47,8 +47,6 @@ Docker镜像制作
 		 
 -  第四步：执行命令，生成镜像
 
->如果使用的是Mac M系列芯片，需要修改docker-compose.yml文件的第一行为：```FROM arm64v8/mysql:8```
-
          docker-compose up -d
 		 
 -  第五步：访问报表（默认账号：admin 密码：123456）
@@ -56,3 +54,13 @@ Docker镜像制作
       报表工作台： http://localhost:8085/jmreport/list
       
       仪表盘工作台： http://localhost:8085/drag/list
+
+> 如果使用的是Mac M系列芯片:
+
+**1、将`jimureport-mysql`的基础镜像改为arm平台：**
+
+修改`JimuReport/db/Dockerfile`文件的第一行为：`FROM arm64v8/mysql:8`
+
+**2、 将`jimureport`的基础镜像改为arm平台**
+* 制作基于arm架构的jdk8的docker镜像。
+* 修改 `JimuReport/Dockerfile`文件的第一行为：`FROM <制作的镜像名称>`
