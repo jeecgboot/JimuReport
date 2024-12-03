@@ -72,6 +72,13 @@ jeecg:
       - 20
       - 30
       - 40
+    # 邮件发送
+    mail:
+      enabled: false
+      sender: 积木报表
+      host: smtp.exmail.qq.com
+      username: ??
+      password: ??
 #输出sql日志
 logging:
   level:

@@ -1,10 +1,10 @@
 # JimuReport积木报表(免费报表工具)
 
-v1.9.0 | 2024-11-04
+v1.9.1 | 2024-12-09
 
 
 [![](https://img.shields.io/badge/Author-北京敲敲云科技-orange.svg)](https://qiaoqiaoyun.com/aboutUs)
-[![](https://img.shields.io/badge/version-1.9.0-brightgreen.svg)](https://github.com/jeecgboot/JimuReport)
+[![](https://img.shields.io/badge/version-1.9.1-brightgreen.svg)](https://github.com/jeecgboot/JimuReport)
 [![](https://img.shields.io/badge/Blog-积木报表官网-blue.svg)](http://jimureport.com)
 [![GitHub stars](https://img.shields.io/github/stars/zhangdaiscott/JimuReport.svg?style=social&label=Stars)](https://github.com/jeecgboot/JimuReport)
 [![GitHub forks](https://img.shields.io/github/forks/zhangdaiscott/JimuReport.svg?style=social&label=Fork)](https://github.com/jeecgboot/JimuReport)
@@ -12,11 +12,11 @@ v1.9.0 | 2024-11-04
 
  积木报表JimuReport，是一款免费的数据可视化报表，含报表、仪表盘和大屏设计，像搭建积木一样完全在线设计！功能涵盖：数据报表、打印设计、图表报表、门户设计、大屏设计等！
  
- -   Web版报表设计器，类Excel操作风格，通过拖拽完成报表设计，所见即所得。
+ -   Web版报表设计器，类Excel操作风格，通过拖拽完成报表设计，所见即所得.
  -   大屏采用类word风格，可以随意拖动组件，想怎么设计怎么设计，可以像百度和阿里一样，设计出炫酷大屏！
- -   从v1.9.0+起积木仪表盘支持大屏迈进了革命的步伐，她的牛叉之处：同时支持仪表盘、大屏、门户（支持交互）、移动。
- -   秉承"简单、易用、专业"的产品理念，极大的降低报表开发难度、缩短开发周期、节省成本。
- -   领先的企业级Web报表，支持各种复杂报表，专注于解决企业报表难题。
+ -   从 v1.9+ 起推出 JimuBI 产品，她的牛叉之处，同时支持仪表盘、大屏、门户 (支持交互)、移动.
+ -   秉承"简单、易用、专业"的产品理念，极大的降低报表开发难度、缩短开发周期、节省成本.
+ -   领先的企业级Web报表，支持各种复杂报表，专注于解决企业报表难题.
  
 ```
 专注于开源，打造 “专业 易用 智能” 的数据可视化报表、大屏、门户
@@ -49,7 +49,7 @@ v1.9.0 | 2024-11-04
 <dependency>
    <groupId>org.jeecgframework.jimureport</groupId>
    <artifactId>jimureport-spring-boot-starter</artifactId>
-   <version>1.9.0</version>
+   <version>1.9.1</version>
 </dependency>
 ```
 
@@ -60,8 +60,8 @@ v1.9.0 | 2024-11-04
 ```
  <dependency>
    <groupId>org.jeecgframework.jimureport</groupId>
-   <artifactId>jimureport-dashboard-spring-boot-starter</artifactId>
-   <version>1.9.0</version>
+   <artifactId>jimubi-spring-boot-starter</artifactId>
+   <version>1.9.1</version>
  </dependency>
 ```
 
