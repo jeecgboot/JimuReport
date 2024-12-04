@@ -30,6 +30,11 @@ public class SpringSecurityConfig {
                         "/jmreport/desreport_/**/*.css",
                         "/jmreport/desreport_/**/*.ico",
                         "/jmreport/desreport_/**/*.png").permitAll()
+                // 放过静态资源-仪表盘
+                .antMatchers("/drag/lib/**/*.css",
+                        "/drag/lib/**/*.js",
+                        "/drag/lib/**/*.png",
+                        "/drag/**/*.ico").permitAll()
                 // 不需要登录的接口
                 .antMatchers("/jmreport/excelQueryByTemplate",
                         "/jmreport/query/report/folder/template",
@@ -50,6 +55,10 @@ public class SpringSecurityConfig {
                         "/jmreport/getQueryInfo",
                         "/jmreport/show",
                         "/jmreport/addViewCount/**").permitAll()
+                // 仪表盘分享页面
+                .antMatchers("/drag/share/view/**",
+                        "/drag/page/queryById",
+                        "/drag/page/addVisitsNumber").permitAll()
                 // view页面
                 .antMatchers("/jmreport/view/**").access("@viewPageCustomAccess.check(request,authentication)")
                 .anyRequest().authenticated()
