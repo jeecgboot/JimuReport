@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.7.10</version>
+        <version>2.7.18</version>
         <relativePath/>
     </parent>
 
@@ -68,7 +68,7 @@
             <artifactId>jimureport-spring-boot-starter</artifactId>
             <version>${jimureport.version}</version>
         </dependency>
-        <!-- 积木仪表盘大屏 -->
+        <!-- 积木仪BI -->
         <dependency>
             <groupId>org.jeecgframework.jimureport</groupId>
             <artifactId>jimubi-spring-boot-starter</artifactId>
