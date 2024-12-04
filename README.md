@@ -38,13 +38,12 @@ v1.9.1 | 2024-12-09
 
 快速集成积木报表
 -----------------------------------
-> 快速集成到自己项目中，支持SpringBoot脚手架项目。如果你的项目是springboot2或springboot3，可以从下面选择适合版本。
+> 快速集成到自己项目中，支持SpringBoot2脚手架项目。
 
 #### 第一步：引入JimuReport依赖
 
-##### 一、积木报表依赖
+##### 积木报表依赖
 
-> springboot2版依赖
 ```
 <dependency>
    <groupId>org.jeecgframework.jimureport</groupId>
@@ -54,8 +53,7 @@ v1.9.1 | 2024-12-09
 ```
 
 
-##### 二、积木仪表盘大屏依赖
-> springboot2版依赖
+##### 积木BI依赖(大屏和仪表盘)
 
 ```
  <dependency>
