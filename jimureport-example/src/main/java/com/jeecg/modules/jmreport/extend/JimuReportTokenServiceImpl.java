@@ -64,9 +64,26 @@ public class JimuReportTokenServiceImpl implements JmReportTokenServiceI {
      */
     @Override
     public String[] getRoles(String token) {
-        return new String[]{"admin"};
+        //积木内置三个角色 "admin","lowdeveloper","dbadeveloper"
+        return new String[]{"admin","lowdeveloper","dbadeveloper"};
     }
 
+
+    /**
+     * 自定义用户拥有的权限指令
+     * 
+     * @param token
+     * @return
+     */
+    @Override
+    public String[] getPermissions(String token) {
+        //drag:datasource:testConnection   仪表盘数据库连接测试
+        //onl:drag:clear:recovery          清空回收站
+        //drag:analysis:sql                SQL解析
+        //drag:design:getTotalData         仪表盘对Online表单展示数据
+        return new String[]{"drag:datasource:testConnection","onl:drag:clear:recovery","drag:analysis:sql","drag:design:getTotalData"};
+    }
+    
     /**
      * Token校验
      * @param token

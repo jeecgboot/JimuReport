@@ -78,7 +78,7 @@
         <dependency>
             <groupId>org.jeecgframework.jimureport</groupId>
             <artifactId>jimubi-spring-boot-starter</artifactId>
-            <version>1.9.1</version>
+            <version>${jimureport.version}</version>
         </dependency>
         <!-- jsqlparser -->
         <dependency>
