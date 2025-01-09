@@ -31,8 +31,8 @@ v1.9.3 | 2025-01-08
 
 - 官方网站： http://jimureport.com
 - 在线体验： http://jimureport.com/login
-- 快速入门： [零基础集成积木报表](https://help.jeecg.com/jimureport/quick.html) | [开发文档](https://help.jeecg.com/jimureport) | [视频教程](http://jimureport.com/doc/video)
-- 技术支持： 发现bug，[请在github上发issue](https://github.com/jeecgboot/JimuReport/issues/new)
+- 快速入门： [快速集成积木报表](https://help.jeecg.com/jimureport/quick.html) | [开发文档](https://help.jeecg.com/jimureport) | [视频教程](http://jimureport.com/doc/video)
+- 技术支持： [发现bug，请在github上发issue](https://github.com/jeecgboot/JimuReport/issues/new)
 - QQ交流群： ③596660273、①212391162(满)、②929646317(满)
 
 
