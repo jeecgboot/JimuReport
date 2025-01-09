@@ -134,9 +134,12 @@ v1.9.3 | 2025-01-08
 |   MariaDB   |  √   |
 |  SQLite、Hsqldb、Derby、H2   |  √   |
 |   达梦、人大金仓、神通   |  √   |
-|   华为高斯、虚谷、瀚高数据库   |  √   |
+|   华为高斯、虚谷、瀚高数据库、 TDengine 涛思数据   |  √   |
 |   阿里云PolarDB、PPAS、HerdDB   |  √   |
 |  Hive、HBase、CouchBase   |  √   |
+|  导入Excel、csv、json文件数据集   |  √   |
+|  sqllite、TiDB、Doris、clickhouse、 MongoDB-BI   |  √   |
+|  elasticsearch、mogodb  |  √   |
 
   未提供脚本的数据库，可以参考 [文档](https://my.oschina.net/jeecg/blog/4905722) 自己转。
 
