@@ -1,10 +1,10 @@
 # JimuReport积木报表(免费报表工具)
 
-v1.9.1 | 2024-12-05
+v1.9.3 | 2025-01-08
 
 
 [![](https://img.shields.io/badge/Author-北京敲敲云科技-orange.svg)](https://qiaoqiaoyun.com/aboutUs)
-[![](https://img.shields.io/badge/version-1.9.1-brightgreen.svg)](https://github.com/jeecgboot/JimuReport)
+[![](https://img.shields.io/badge/version-1.9.3-brightgreen.svg)](https://github.com/jeecgboot/JimuReport)
 [![](https://img.shields.io/badge/Blog-积木报表官网-blue.svg)](http://jimureport.com)
 [![GitHub stars](https://img.shields.io/github/stars/zhangdaiscott/JimuReport.svg?style=social&label=Stars)](https://github.com/jeecgboot/JimuReport)
 [![GitHub forks](https://img.shields.io/github/forks/zhangdaiscott/JimuReport.svg?style=social&label=Fork)](https://github.com/jeecgboot/JimuReport)
@@ -46,10 +46,17 @@ v1.9.1 | 2024-12-05
 ##### 积木报表依赖
 
 ```
+<!-- 积木报表依赖 -->
 <dependency>
    <groupId>org.jeecgframework.jimureport</groupId>
    <artifactId>jimureport-spring-boot-starter</artifactId>
-   <version>1.9.1</version>
+   <version>1.9.3</version>
+</dependency>
+<!-- csv excel json mogodb elasticsearch redis 数据集支持包 -->
+<dependency>
+   <groupId>org.jeecgframework.jimureport</groupId>
+   <artifactId>jimureport-nosql-starter</artifactId>
+   <version>1.9.3</version>
 </dependency>
 ```
 
