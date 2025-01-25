@@ -1,25 +1,20 @@
 ---
-name: 提交建议
-about: 请告诉我框架的不足之处，让我做得更好！
-labels: help wanted
-assignees: getActivity
+name: Feature request
+about: Suggest an idea for this project
+title: ''
+labels: ''
+assignees: ''
 
 ---
 
+**Is your feature request related to a problem? Please describe.**
+A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
-##### 版本号：
+**Describe the solution you'd like**
+A clear and concise description of what you want to happen.
 
+**Describe alternatives you've considered**
+A clear and concise description of any alternative solutions or features you've considered.
 
-##### 问题描述：
-
-
-
-##### 错误截图：
-
-
-
-
-#### 友情提示：
-  - 未按格式要求发帖、描述过于简单的，会被直接删掉;
-  - 描述问题请图文并茂，方便我们理解并快速定位问题;
-  - 如果使用的不是master，请说明你使用的分支;
+**Additional context**
+Add any other context or screenshots about the feature request here.
