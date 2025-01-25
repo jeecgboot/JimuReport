@@ -1,20 +1,27 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
-title: ''
-labels: ''
-assignees: ''
+name: 提交建议
+about: 请告诉我框架的不足之处，让我做得更好！
+labels: help wanted
+assignees: getActivity
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+##### 版本号：
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+##### 问题描述：
+
+
+##### 错误日志&截图：
+
+
+##### 重现步骤：
+
+
+#### 友情提示（为了提高issue处理效率）：
+  - 积木报表是一款免费报表产品，功能免费源码不开放;
+  - 未按格式要求发帖，会被直接删掉;
+  - 请针对问题提供[[报表设计配置或SQL脚本]](https://help.jeecg.com/jimureport/issues.html)或在官网制作报表示例并提供ID;
+  - 针对不好重现的问题，请录制操作视频或详细的重现步骤；
+

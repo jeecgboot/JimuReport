@@ -1,38 +1,25 @@
 ---
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
+name: 提交 Bug
+about: 请告诉我框架存在的问题，我会协助你解决此问题！
+labels: bug
+assignees: getActivity
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+##### 版本号：
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+##### 问题描述：
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+##### 错误日志&截图：
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
 
-**Additional context**
-Add any other context about the problem here.
+##### 重现步骤：
+
+
+#### 友情提示（为了提高issue处理效率）：
+  - 积木报表是一款免费报表产品，功能免费源码不开放;
+  - 未按格式要求发帖，会被直接删掉;
+  - 请针对问题提供[[报表设计配置或SQL脚本]](https://help.jeecg.com/jimureport/issues.html)或在官网制作报表示例并提供ID;
+  - 针对不好重现的问题，请录制操作视频或详细的重现步骤；
