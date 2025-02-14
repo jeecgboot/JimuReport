@@ -1,8 +1,8 @@
 ---
-name: 提交建议
-about: 请告诉我框架的不足之处，让我做得更好！
+name: Custom issue template
+about: Describe this issue template's purpose here.
 title: ''
-labels: help wanted
+labels: ''
 assignees: ''
 
 ---
