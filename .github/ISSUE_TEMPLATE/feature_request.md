@@ -1,11 +1,11 @@
 ---
 name: 提交建议
 about: 请告诉我框架的不足之处，让我做得更好！
+title: ''
 labels: help wanted
-assignees: getActivity
+assignees: ''
 
 ---
-
 
 ##### 版本号：
 
@@ -24,4 +24,3 @@ assignees: getActivity
   - 未按格式要求发帖，会被直接删掉;
   - 请针对问题提供[[报表设计配置或SQL脚本]](https://help.jeecg.com/jimureport/issues.html)或在官网制作报表示例并提供ID;
   - 针对不好重现的问题，请录制操作视频或详细的重现步骤；
-
