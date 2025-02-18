@@ -31,7 +31,7 @@ v1.9.4 | 2025-02-17
 
 - 官方网站： http://jimureport.com
 - 在线体验： http://jimureport.com/login
-- 快速入门： [快速集成积木报表](https://help.jeecg.com/jimureport/quick.html) | [开发文档](https://help.jeecg.com/jimureport) | [视频教程](http://jimureport.com/doc/video)
+- 快速入门： [快速集成积木报表](https://help.jimureport.com/quick.html) | [开发文档](https://help.jimureport.com) | [视频教程](http://jimureport.com/doc/video)
 - 技术支持： [发现bug，请在github上发issue](https://github.com/jeecgboot/JimuReport/issues/new)
 - QQ交流群： ③596660273、①212391162(满)、②929646317(满)
 
@@ -100,14 +100,14 @@ v1.9.4 | 2025-02-17
 
 #### 第二步：初始化SQL和详细必须配置
 
- - https://help.jeecg.com/jimureport/quick.html
+ - https://help.jimureport.com/quick.html
 
 
 绿色免安装版本
 -----------------------------------
 
 - [集成版源码运行](https://github.com/jeecgboot/JimuReport/tree/master/jimureport-example)
-- [Docker快速运行](https://help.jeecg.com/jimureport/docker.html)
+- [Docker快速运行](https://help.jimureport.com/docker.html)
 - [绿色免安装版本](https://pan.baidu.com/s/1z9VmMz4HCc7GMVbzugetLQ?pwd=xafr)
 
 > 默认账号密码：admin/123456
