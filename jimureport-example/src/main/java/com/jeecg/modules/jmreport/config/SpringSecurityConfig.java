@@ -57,13 +57,15 @@ public class SpringSecurityConfig {
                         "/jmreport/addViewCount/**").permitAll()
                 // 仪表盘分享页面
                 .antMatchers("/drag/share/view/**",
+                        "/jimubi/share/view/**",
                         "/drag/page/queryById",
                         "/drag/page/addVisitsNumber",
                         "/drag/page/queryTemplateList",
                         "/drag/onlDragDatasetHead/getAllChartData",
                         "/drag/onlDragDatasetHead/getTotalData",
-                        "drag/mock/json/**",
-                        "drag/getImageBase64/**").permitAll()
+                        "/drag/onlDragDatasetHead/getDictByCodes",
+                        "/drag/mock/json/**",
+                        "/drag/getImageBase64/**").permitAll()
                 // view页面
                 .antMatchers("/jmreport/view/**").access("@viewPageCustomAccess.check(request,authentication)")
                 .anyRequest().authenticated()
