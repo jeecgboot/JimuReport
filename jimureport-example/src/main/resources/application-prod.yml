@@ -31,9 +31,11 @@ spring:
   # 登录认证配置
   security:
     #是否开启登录认证
+    enable: true
+    #登录账号和密码（口令留空或为 123456 时，启动随机生成并打印到日志；可用环境变量 JIMU_ADMIN_USER / JIMU_ADMIN_PASSWORD 指定）
     user:
-      name: "admin"
-      password: "123456"
+      name: "${JIMU_ADMIN_USER:admin}"
+      password: "${JIMU_ADMIN_PASSWORD:}"
   #配置freemarker
   freemarker:
     # 设置模板后缀名

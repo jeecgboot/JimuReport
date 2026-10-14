@@ -101,12 +101,11 @@ public class LoginController {
     }
 
     /**
-     * 判断是否使用默认演示账号 admin/123456
+     * 口令是否为本次启动随机生成（未配置或仍为默认口令 123456 时），登录页据此提示查看启动日志
      */
     @GetMapping("/isDefaultCredentials")
     @ResponseBody
     public boolean isDefaultCredentials() {
-        return "admin".equals(securityConfig.getUser().getName())
-                && "123456".equals(securityConfig.getUser().getPassword());
+        return securityConfig.isGeneratedPassword();
     }
 }
