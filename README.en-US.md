@@ -110,7 +110,7 @@ And with the arrival of the AI wave, JimuReport goes a step further by introduci
  <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimureport-spring-boot-starter</artifactId>
-    <version>2.5.4</version>
+    <version>2.5.4.1</version>
  </dependency>
  <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
