@@ -141,7 +141,9 @@ public class JimuReportTokenServiceImpl implements JmReportTokenServiceI {
                 "jmreport:design:saveDb",            // 设计器-数据集保存
                 "jmreport:design:filesDataset",      // 设计器-文件数据集
                 "jmreport:design:editEnhance",       // 设计器-增强代码(JS/CSS/Python)
-                "jmreport:datasource:query"          // 数据源-查询(列表/详情)
+                "jmreport:datasource:query",          // 数据源-查询(列表/详情)
+                "jmreport:design:save",               // 设计器保存
+                "jmreport:ai:tableMeta",               // 积木报表 AI数据建模
         };
     }
 
