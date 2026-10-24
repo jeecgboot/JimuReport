@@ -5,6 +5,7 @@ import cn.dev33.satoken.exception.NotLoginException;
 import cn.dev33.satoken.stp.StpUtil;
 import com.jeecg.modules.jmreport.satoken.config.SecurityConfig;
 import com.jeecg.modules.jmreport.satoken.util.AjaxRequestUtils;
+import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
@@ -148,6 +149,33 @@ public class JimuReportTokenServiceImpl implements JmReportTokenServiceI {
     }
 
     /**
+     * 是否为分享/钻取访问：钻取地址带 jmLink 或 previousPage 参数，或已持有该报表的分享凭证Cookie（JM_ST_{报表ID}）
+     * 这类请求未登录时不跳登录页，交给后续分享校验处理（校验不通过照常返回无权限）
+     * @author scott
+     * @since 2026-10-24 独立版从分享页钻取跳登录页
+     */
+    private boolean isShareDrillRequest(HttpServletRequest request) {
+        if (request == null) {
+            return false;
+        }
+        if (StringUtils.isNotEmpty(request.getParameter("jmLink")) || StringUtils.isNotEmpty(request.getParameter("previousPage"))) {
+            return true;
+        }
+        String uri = request.getRequestURI();
+        int idx = uri == null ? -1 : uri.indexOf("/jmreport/view/");
+        if (idx < 0 || request.getCookies() == null) {
+            return false;
+        }
+        String reportId = uri.substring(idx + "/jmreport/view/".length()).split("/")[0];
+        for (Cookie cookie : request.getCookies()) {
+            if (("JM_ST_" + reportId).equals(cookie.getName()) && StringUtils.isNotEmpty(cookie.getValue())) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    /**
      * Token校验
      * @param token
      * @return
@@ -168,7 +196,9 @@ public class JimuReportTokenServiceImpl implements JmReportTokenServiceI {
                 // 跳转登录页面
                 try {
                     HttpServletRequest request = JimuSpringContextUtils.getHttpServletRequest();
-                    if(!AjaxRequestUtils.isAjaxRequest(request)){
+                    //update-begin---author:scott ---date:20261024  for：分享页钻取跳登录页——此处在分享校验之前执行，直接重定向会使后续分享/钻取校验失效；带分享钻取上下文的请求不跳转，是否放行仍由分享校验决定------------
+                    if(!AjaxRequestUtils.isAjaxRequest(request) && !isShareDrillRequest(request)){
+                    //update-end---author:scott ---date:20261024  for：分享页钻取跳登录页，带分享钻取上下文的请求不跳转------------
                         String redirect = URLEncoder.encode(request.getRequestURI(), StandardCharsets.UTF_8);
                         JimuSpringContextUtils.getHttpServletResponse().sendRedirect("/login/login.html?redirect=" + redirect);
                     }
